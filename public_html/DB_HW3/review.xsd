@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:simpleType name= "RatingType">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="5"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+	<xs:complexType name="myreviewtype">
+		<xs:sequence>
+			<xs:element name="ReviewNumber" type="xs:string"  minOccurs="1" />
+			<xs:element name="Movie_Title" type="xs:string"  minOccurs="1" />
+			<xs:element name="Rating" type="RatingType"  minOccurs="1" />
+			<xs:element name="Reviewer" type="xs:string"  minOccurs="1" />
+			<xs:element name="Review_Date" type="xs:date" minOccurs="1"/>
+			<xs:element name="ReviewDescription" type="xs:string"  minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="review">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="review_list" type="myreviewtype" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

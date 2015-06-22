@@ -1,0 +1,1 @@
+2014-07-15 18:17:54 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 776 milliseconds

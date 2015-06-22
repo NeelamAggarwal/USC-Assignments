@@ -1,0 +1,604 @@
+2014-04-11 21:41:50 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 585 milliseconds
+2014-04-11 21:42:38 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 581 milliseconds
+2014-04-11 21:42:51 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 570 milliseconds
+2014-04-11 21:45:05 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 69 milliseconds
+2014-04-11 21:45:26 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 67 milliseconds
+2014-04-11 21:45:35 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 68 milliseconds
+2014-04-11 21:45:40 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 69 milliseconds
+2014-04-11 22:02:34 StandardContext[/examples]: Reloading this Context has started
+2014-04-11 22:02:34 SessionListener: contextDestroyed()
+2014-04-11 22:02:34 ContextListener: contextDestroyed()
+2014-04-11 22:02:34 WebappLoader[/examples]: Reloading checks are enabled for this Context
+2014-04-11 22:02:34 StandardContext[/examples]: Error configuring application listener of class listeners.ContextListener
+java.lang.ClassNotFoundException: listeners.ContextListener
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1444)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1289)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:3237)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:2534)
+	at org.apache.catalina.loader.WebappLoader$WebappContextNotifier.run(WebappLoader.java:1369)
+	at java.lang.Thread.run(Thread.java:534)
+
+2014-04-11 22:02:34 StandardContext[/examples]: Error configuring application listener of class listeners.SessionListener
+java.lang.ClassNotFoundException: listeners.SessionListener
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1444)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1289)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:3237)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:2534)
+	at org.apache.catalina.loader.WebappLoader$WebappContextNotifier.run(WebappLoader.java:1369)
+	at java.lang.Thread.run(Thread.java:534)
+
+2014-04-11 22:02:34 StandardContext[/examples]: Skipped installing application listeners due to previous error(s)
+2014-04-11 22:02:34 StandardContext[/examples]: Failed to start application Listeners successfully
+2014-04-11 22:02:34 StandardWrapper[/examples:default]: Loading container servlet default
+2014-04-11 22:02:34 StandardWrapper[/examples:invoker]: Loading container servlet invoker
+2014-04-11 22:02:34 StandardManager[/examples]: Seeding random number generator class java.security.SecureRandom
+2014-04-11 22:02:34 StandardManager[/examples]: Seeding of random number generator has been completed
+2014-04-11 22:02:34 StandardContext[/examples]: Reloading this Context failed due to previous errors
+2014-04-11 22:02:52 StandardContext[/examples]: ContainerBase.removeChild: stop: 
+LifecycleException:  Container StandardWrapper[/examples:servletToJsp] has not been started
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1214)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1362)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.startup.ContextConfig.stop(ContextConfig.java:701)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:245)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3676)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.core.StandardHostDeployer.remove(StandardHostDeployer.java:470)
+	at org.apache.catalina.core.StandardHost.remove(StandardHost.java:852)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:758)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:738)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:360)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1221)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1233)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:554)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:2225)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:543)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:400)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:203)
+
+2014-04-11 22:02:52 StandardContext[/examples]: ContainerBase.removeChild: stop: 
+LifecycleException:  Container StandardWrapper[/examples:snoop] has not been started
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1214)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1362)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.startup.ContextConfig.stop(ContextConfig.java:701)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:245)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3676)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.core.StandardHostDeployer.remove(StandardHostDeployer.java:470)
+	at org.apache.catalina.core.StandardHost.remove(StandardHost.java:852)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:758)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:738)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:360)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1221)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1233)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:554)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:2225)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:543)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:400)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:203)
+
+2014-04-11 22:02:52 StandardContext[/examples]: ContainerBase.removeChild: stop: 
+LifecycleException:  Container StandardWrapper[/examples:HomeWork8] has not been started
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1214)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1362)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.startup.ContextConfig.stop(ContextConfig.java:701)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:245)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3676)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.core.StandardHostDeployer.remove(StandardHostDeployer.java:470)
+	at org.apache.catalina.core.StandardHost.remove(StandardHost.java:852)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:758)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:738)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:360)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1221)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1233)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:554)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:2225)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:543)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:400)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:203)
+
+2014-04-11 22:02:52 StandardContext[/examples]: ContainerBase.removeChild: stop: 
+LifecycleException:  Container StandardWrapper[/examples:SendMailServlet] has not been started
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1214)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1362)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.startup.ContextConfig.stop(ContextConfig.java:701)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:245)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3676)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.core.StandardHostDeployer.remove(StandardHostDeployer.java:470)
+	at org.apache.catalina.core.StandardHost.remove(StandardHost.java:852)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:758)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:738)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:360)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1221)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1233)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:554)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:2225)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:543)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:400)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:203)
+
+2014-04-11 22:02:52 StandardContext[/examples]: ContainerBase.removeChild: stop: 
+LifecycleException:  Container StandardWrapper[/examples:CompressionFilterTestServlet] has not been started
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1214)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1362)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.startup.ContextConfig.stop(ContextConfig.java:701)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:245)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3676)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.core.StandardHostDeployer.remove(StandardHostDeployer.java:470)
+	at org.apache.catalina.core.StandardHost.remove(StandardHost.java:852)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:758)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:738)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:360)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1221)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1233)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:554)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:2225)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:543)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:400)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:203)
+
+2014-04-11 22:02:52 StandardContext[/examples]: ContainerBase.removeChild: stop: 
+LifecycleException:  Container StandardWrapper[/examples:jsp] has not been started
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1214)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1362)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.startup.ContextConfig.stop(ContextConfig.java:701)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:245)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3676)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.core.StandardHostDeployer.remove(StandardHostDeployer.java:470)
+	at org.apache.catalina.core.StandardHost.remove(StandardHost.java:852)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:758)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:738)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:360)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1221)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1233)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:554)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:2225)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:543)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:400)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:203)
+
+2014-04-11 22:02:52 StandardContext[/examples]: ContainerBase.removeChild: stop: 
+LifecycleException:  Container StandardWrapper[/examples:invoker] has not been started
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1214)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1362)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.startup.ContextConfig.stop(ContextConfig.java:701)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:245)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3676)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.core.StandardHostDeployer.remove(StandardHostDeployer.java:470)
+	at org.apache.catalina.core.StandardHost.remove(StandardHost.java:852)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:758)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:738)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:360)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1221)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1233)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:554)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:2225)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:543)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:400)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:203)
+
+2014-04-11 22:02:52 StandardContext[/examples]: ContainerBase.removeChild: stop: 
+LifecycleException:  Container StandardWrapper[/examples:default] has not been started
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1214)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1362)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.startup.ContextConfig.stop(ContextConfig.java:701)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:245)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3676)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.core.StandardHostDeployer.remove(StandardHostDeployer.java:470)
+	at org.apache.catalina.core.StandardHost.remove(StandardHost.java:852)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:758)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:738)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:360)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1221)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1233)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:554)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:2225)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:543)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:400)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:203)
+
+2014-04-11 22:03:01 WebappLoader[/examples]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/examples
+2014-04-11 22:03:01 WebappLoader[/examples]: Deploy class files /WEB-INF/classes to /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/examples/WEB-INF/classes
+2014-04-11 22:03:01 WebappLoader[/examples]: Deploy JAR /WEB-INF/lib/jdom.jar to /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/examples/WEB-INF/lib/jdom.jar
+2014-04-11 22:03:01 WebappLoader[/examples]: Deploy JAR /WEB-INF/lib/json.jar to /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/examples/WEB-INF/lib/json.jar
+2014-04-11 22:03:01 WebappLoader[/examples]: Reloading checks are enabled for this Context
+2014-04-11 22:03:01 ContextConfig[/examples]: Configured an authenticator for method FORM
+2014-04-11 22:03:01 StandardManager[/examples]: Seeding random number generator class java.security.SecureRandom
+2014-04-11 22:03:02 StandardManager[/examples]: Seeding of random number generator has been completed
+2014-04-11 22:03:02 ContextListener: contextInitialized()
+2014-04-11 22:03:02 SessionListener: contextInitialized()
+2014-04-11 22:03:02 StandardWrapper[/examples:default]: Loading container servlet default
+2014-04-11 22:03:02 StandardWrapper[/examples:invoker]: Loading container servlet invoker
+2014-04-11 22:03:19 InvokerFilter(ApplicationFilterConfig[name=Servlet Mapped Filter, filterClass=filters.ExampleFilter]): 1040 milliseconds
+2014-04-11 22:03:19 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 1041 milliseconds
+2014-04-11 22:03:29 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 74 milliseconds
+2014-04-11 22:03:40 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 484 milliseconds
+2014-04-11 22:22:43 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 476 milliseconds
+2014-04-11 22:22:49 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 612 milliseconds
+2014-04-11 22:23:20 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 73 milliseconds
+2014-04-11 22:23:25 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 67 milliseconds
+2014-04-11 22:25:47 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 517 milliseconds
+2014-04-11 22:25:59 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 631 milliseconds
+2014-04-11 23:12:01 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 725 milliseconds
+2014-04-11 23:16:19 StandardContext[/examples]: Reloading this Context has started
+2014-04-11 23:16:19 SessionListener: contextDestroyed()
+2014-04-11 23:16:19 ContextListener: contextDestroyed()
+2014-04-11 23:16:19 WebappLoader[/examples]: Reloading checks are enabled for this Context
+2014-04-11 23:16:19 StandardContext[/examples]: Error configuring application listener of class listeners.ContextListener
+java.lang.ClassNotFoundException: listeners.ContextListener
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1444)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1289)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:3237)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:2534)
+	at org.apache.catalina.loader.WebappLoader$WebappContextNotifier.run(WebappLoader.java:1369)
+	at java.lang.Thread.run(Thread.java:534)
+
+2014-04-11 23:16:19 StandardContext[/examples]: Error configuring application listener of class listeners.SessionListener
+java.lang.ClassNotFoundException: listeners.SessionListener
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1444)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1289)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:3237)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:2534)
+	at org.apache.catalina.loader.WebappLoader$WebappContextNotifier.run(WebappLoader.java:1369)
+	at java.lang.Thread.run(Thread.java:534)
+
+2014-04-11 23:16:19 StandardContext[/examples]: Skipped installing application listeners due to previous error(s)
+2014-04-11 23:16:19 StandardContext[/examples]: Failed to start application Listeners successfully
+2014-04-11 23:16:19 StandardWrapper[/examples:default]: Loading container servlet default
+2014-04-11 23:16:19 StandardWrapper[/examples:invoker]: Loading container servlet invoker
+2014-04-11 23:16:19 StandardManager[/examples]: Seeding random number generator class java.security.SecureRandom
+2014-04-11 23:16:19 StandardManager[/examples]: Seeding of random number generator has been completed
+2014-04-11 23:16:19 StandardContext[/examples]: Reloading this Context failed due to previous errors
+2014-04-11 23:17:31 StandardContext[/examples]: ContainerBase.removeChild: stop: 
+LifecycleException:  Container StandardWrapper[/examples:servletToJsp] has not been started
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1214)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1362)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.startup.ContextConfig.stop(ContextConfig.java:701)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:245)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3676)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.core.StandardHostDeployer.remove(StandardHostDeployer.java:470)
+	at org.apache.catalina.core.StandardHost.remove(StandardHost.java:852)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:758)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:738)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:360)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1221)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1233)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:554)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:2225)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:543)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:400)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:203)
+
+2014-04-11 23:17:31 StandardContext[/examples]: ContainerBase.removeChild: stop: 
+LifecycleException:  Container StandardWrapper[/examples:snoop] has not been started
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1214)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1362)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.startup.ContextConfig.stop(ContextConfig.java:701)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:245)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3676)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.core.StandardHostDeployer.remove(StandardHostDeployer.java:470)
+	at org.apache.catalina.core.StandardHost.remove(StandardHost.java:852)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:758)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:738)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:360)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1221)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1233)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:554)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:2225)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:543)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:400)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:203)
+
+2014-04-11 23:17:31 StandardContext[/examples]: ContainerBase.removeChild: stop: 
+LifecycleException:  Container StandardWrapper[/examples:HomeWork8] has not been started
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1214)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1362)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.startup.ContextConfig.stop(ContextConfig.java:701)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:245)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3676)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.core.StandardHostDeployer.remove(StandardHostDeployer.java:470)
+	at org.apache.catalina.core.StandardHost.remove(StandardHost.java:852)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:758)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:738)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:360)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1221)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1233)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:554)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:2225)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:543)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:400)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:203)
+
+2014-04-11 23:17:31 StandardContext[/examples]: ContainerBase.removeChild: stop: 
+LifecycleException:  Container StandardWrapper[/examples:SendMailServlet] has not been started
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1214)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1362)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.startup.ContextConfig.stop(ContextConfig.java:701)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:245)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3676)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.core.StandardHostDeployer.remove(StandardHostDeployer.java:470)
+	at org.apache.catalina.core.StandardHost.remove(StandardHost.java:852)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:758)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:738)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:360)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1221)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1233)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:554)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:2225)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:543)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:400)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:203)
+
+2014-04-11 23:17:31 StandardContext[/examples]: ContainerBase.removeChild: stop: 
+LifecycleException:  Container StandardWrapper[/examples:CompressionFilterTestServlet] has not been started
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1214)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1362)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.startup.ContextConfig.stop(ContextConfig.java:701)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:245)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3676)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.core.StandardHostDeployer.remove(StandardHostDeployer.java:470)
+	at org.apache.catalina.core.StandardHost.remove(StandardHost.java:852)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:758)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:738)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:360)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1221)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1233)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:554)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:2225)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:543)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:400)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:203)
+
+2014-04-11 23:17:31 StandardContext[/examples]: ContainerBase.removeChild: stop: 
+LifecycleException:  Container StandardWrapper[/examples:jsp] has not been started
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1214)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1362)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.startup.ContextConfig.stop(ContextConfig.java:701)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:245)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3676)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.core.StandardHostDeployer.remove(StandardHostDeployer.java:470)
+	at org.apache.catalina.core.StandardHost.remove(StandardHost.java:852)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:758)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:738)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:360)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1221)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1233)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:554)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:2225)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:543)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:400)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:203)
+
+2014-04-11 23:17:31 StandardContext[/examples]: ContainerBase.removeChild: stop: 
+LifecycleException:  Container StandardWrapper[/examples:invoker] has not been started
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1214)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1362)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.startup.ContextConfig.stop(ContextConfig.java:701)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:245)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3676)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.core.StandardHostDeployer.remove(StandardHostDeployer.java:470)
+	at org.apache.catalina.core.StandardHost.remove(StandardHost.java:852)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:758)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:738)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:360)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1221)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1233)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:554)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:2225)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:543)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:400)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:203)
+
+2014-04-11 23:17:31 StandardContext[/examples]: ContainerBase.removeChild: stop: 
+LifecycleException:  Container StandardWrapper[/examples:default] has not been started
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1214)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1362)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.startup.ContextConfig.stop(ContextConfig.java:701)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:245)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3676)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1036)
+	at org.apache.catalina.core.StandardHostDeployer.remove(StandardHostDeployer.java:470)
+	at org.apache.catalina.core.StandardHost.remove(StandardHost.java:852)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:758)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:738)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:360)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:166)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1221)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1233)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:554)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:2225)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:543)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:400)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:203)
+
+2014-04-11 23:17:40 WebappLoader[/examples]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/examples
+2014-04-11 23:17:40 WebappLoader[/examples]: Deploy class files /WEB-INF/classes to /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/examples/WEB-INF/classes
+2014-04-11 23:17:40 WebappLoader[/examples]: Deploy JAR /WEB-INF/lib/jdom.jar to /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/examples/WEB-INF/lib/jdom.jar
+2014-04-11 23:17:40 WebappLoader[/examples]: Deploy JAR /WEB-INF/lib/json.jar to /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/examples/WEB-INF/lib/json.jar
+2014-04-11 23:17:40 WebappLoader[/examples]: Reloading checks are enabled for this Context
+2014-04-11 23:17:40 ContextConfig[/examples]: Configured an authenticator for method FORM
+2014-04-11 23:17:40 StandardManager[/examples]: Seeding random number generator class java.security.SecureRandom
+2014-04-11 23:17:41 StandardManager[/examples]: Seeding of random number generator has been completed
+2014-04-11 23:17:41 ContextListener: contextInitialized()
+2014-04-11 23:17:41 SessionListener: contextInitialized()
+2014-04-11 23:17:41 StandardWrapper[/examples:default]: Loading container servlet default
+2014-04-11 23:17:41 StandardWrapper[/examples:invoker]: Loading container servlet invoker
+2014-04-11 23:17:55 InvokerFilter(ApplicationFilterConfig[name=Servlet Mapped Filter, filterClass=filters.ExampleFilter]): 1270 milliseconds
+2014-04-11 23:17:55 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 1271 milliseconds
+2014-04-11 23:18:11 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 720 milliseconds
+2014-04-11 23:21:22 SessionListener: contextDestroyed()
+2014-04-11 23:21:22 ContextListener: contextDestroyed()
+2014-04-11 23:21:31 WebappLoader[/examples]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/examples
+2014-04-11 23:21:31 WebappLoader[/examples]: Deploy class files /WEB-INF/classes to /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/examples/WEB-INF/classes
+2014-04-11 23:21:31 WebappLoader[/examples]: Deploy JAR /WEB-INF/lib/jdom.jar to /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/examples/WEB-INF/lib/jdom.jar
+2014-04-11 23:21:31 WebappLoader[/examples]: Deploy JAR /WEB-INF/lib/json.jar to /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/examples/WEB-INF/lib/json.jar
+2014-04-11 23:21:31 WebappLoader[/examples]: Reloading checks are enabled for this Context
+2014-04-11 23:21:31 ContextConfig[/examples]: Configured an authenticator for method FORM
+2014-04-11 23:21:31 StandardManager[/examples]: Seeding random number generator class java.security.SecureRandom
+2014-04-11 23:21:31 StandardManager[/examples]: Seeding of random number generator has been completed
+2014-04-11 23:21:32 ContextListener: contextInitialized()
+2014-04-11 23:21:32 SessionListener: contextInitialized()
+2014-04-11 23:21:32 StandardWrapper[/examples:default]: Loading container servlet default
+2014-04-11 23:21:32 StandardWrapper[/examples:invoker]: Loading container servlet invoker
+2014-04-11 23:21:54 InvokerFilter(ApplicationFilterConfig[name=Servlet Mapped Filter, filterClass=filters.ExampleFilter]): 790 milliseconds
+2014-04-11 23:21:54 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 792 milliseconds
+2014-04-11 23:23:49 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 586 milliseconds
+2014-04-11 23:41:45 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 530 milliseconds
+2014-04-11 23:42:03 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 664 milliseconds
+2014-04-11 23:46:48 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 555 milliseconds
+2014-04-11 23:46:57 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 556 milliseconds
+2014-04-11 23:47:12 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 749 milliseconds
+2014-04-11 23:47:20 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 765 milliseconds
+2014-04-11 23:47:28 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 570 milliseconds
+2014-04-11 23:47:34 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 397 milliseconds
+2014-04-11 23:47:40 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 591 milliseconds
+2014-04-11 23:47:48 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 1024 milliseconds
+2014-04-11 23:48:00 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 701 milliseconds
+2014-04-11 23:48:21 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 791 milliseconds
+2014-04-11 23:48:33 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 650 milliseconds
+2014-04-11 23:49:39 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 544 milliseconds
+2014-04-11 23:50:16 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 534 milliseconds
+2014-04-11 23:51:18 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 929 milliseconds
+2014-04-11 23:51:34 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 528 milliseconds
+2014-04-11 23:51:46 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 709 milliseconds
+2014-04-11 23:51:57 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 697 milliseconds
+2014-04-11 23:52:17 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 595 milliseconds

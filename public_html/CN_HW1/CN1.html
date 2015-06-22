@@ -1,0 +1,34 @@
+<html>
+<head>Socket Programming</head>
+<body>
+<p> 
+Program structure- </br> 
+<hr/>
+There are few files in my program. <br/>
+1. <a href = "Socket_Description.pdf"> Socket Programming Description </a> <br/>
+<p>Two clients, three servers communication using TCP/UDP</p>
+2. <a href = "client1.c"> Client file</a> <br/>
+<p>This send request to the directory server to look up for the particular file by connecting through TCP and then send request to the particular client to obtain the file. (actually file name here).</p>
+3. <a href = "file_server1.c"> File Server </a> <br/>
+<p>This send the port no to directory server by connecting with the directory server through UDP.  and then process the request of the client and returns the file name requested by the client.</p>
+4. <a href = "directory_server.c"> Directory Server</a> <br/>
+<p>In this file servers(clients) connects to the directory server(server) through UDP and send the directory server their TCP port. Directory server create the file where port no are stored corresponding to the file servers.</p>
+5. <a href = "client2.c"> Client2 file</a> <br/>
+<p>Another client</p>
+6. <a href = "file_server2.c"> File Server2 </a> <br/>
+<p>Another File Server</p>
+7. <a href = "file_server3.c"> File Server3 </a> <br/>
+<p>Another File Server</p>
+<hr/>
+<br/>
+EXTRA FILES:
+<a href = "README.txt"> README </a> </br>
+<a href = "directory.txt"> File server info </a> <br/>
+<a href = "resource.txt"> File Server resource info </a> <br/>
+<a href = "topology.txt"> info about topology </a> <br/>
+<a href = "RevisedDescription.pdf"> Revised_Description </a> <br/>
+</p>
+
+<NOSCRIPT>
+</body>
+</html>

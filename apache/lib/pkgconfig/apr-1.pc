@@ -1,0 +1,11 @@
+prefix=/home/scf-04/neelamag/apache
+exec_prefix=/home/scf-04/neelamag/apache
+libdir=${prefix}/lib
+APR_MAJOR_VERSION=1
+includedir=/home/scf-04/neelamag/apache/include
+
+Name: APR
+Description: The Apache Portable Runtime library
+Version: 1.4.5
+Libs: -L${libdir} -lapr-${APR_MAJOR_VERSION} -luuid -lsendfile -lrt -lsocket -lnsl  -lpthread
+Cflags: -DSOLARIS2=10 -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_LARGEFILE64_SOURCE -g -O2 -I${includedir}

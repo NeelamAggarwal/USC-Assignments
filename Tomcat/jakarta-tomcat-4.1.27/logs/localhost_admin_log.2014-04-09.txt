@@ -1,0 +1,32 @@
+2014-04-09 14:57:58 WebappLoader[/admin]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/admin
+2014-04-09 14:57:58 WebappLoader[/admin]: Deploy class files /WEB-INF/classes to /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/../server/webapps/admin/WEB-INF/classes
+2014-04-09 14:57:58 WebappLoader[/admin]: Deploy JAR /WEB-INF/lib/struts.jar to /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/../server/webapps/admin/WEB-INF/lib/struts.jar
+2014-04-09 14:57:59 ContextConfig[/admin]: Configured an authenticator for method FORM
+2014-04-09 14:57:59 StandardManager[/admin]: Seeding random number generator class java.security.SecureRandom
+2014-04-09 14:57:59 StandardManager[/admin]: Seeding of random number generator has been completed
+2014-04-09 14:57:59 StandardWrapper[/admin:default]: Loading container servlet default
+2014-04-09 14:58:05 StandardWrapper[/admin:invoker]: Loading container servlet invoker
+2014-04-09 15:47:53 WebappLoader[/admin]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/admin
+2014-04-09 15:47:53 WebappLoader[/admin]: Deploy class files /WEB-INF/classes to /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/../server/webapps/admin/WEB-INF/classes
+2014-04-09 15:47:53 WebappLoader[/admin]: Deploy JAR /WEB-INF/lib/struts.jar to /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/../server/webapps/admin/WEB-INF/lib/struts.jar
+2014-04-09 15:47:54 ContextConfig[/admin]: Configured an authenticator for method FORM
+2014-04-09 15:47:54 StandardManager[/admin]: Seeding random number generator class java.security.SecureRandom
+2014-04-09 15:47:54 StandardManager[/admin]: Seeding of random number generator has been completed
+2014-04-09 15:47:54 StandardWrapper[/admin:default]: Loading container servlet default
+2014-04-09 15:48:00 StandardWrapper[/admin:invoker]: Loading container servlet invoker
+2014-04-09 21:27:08 WebappLoader[/admin]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/admin
+2014-04-09 21:27:08 WebappLoader[/admin]: Deploy class files /WEB-INF/classes to /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/../server/webapps/admin/WEB-INF/classes
+2014-04-09 21:27:08 WebappLoader[/admin]: Deploy JAR /WEB-INF/lib/struts.jar to /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/../server/webapps/admin/WEB-INF/lib/struts.jar
+2014-04-09 21:27:08 ContextConfig[/admin]: Configured an authenticator for method FORM
+2014-04-09 21:27:08 StandardManager[/admin]: Seeding random number generator class java.security.SecureRandom
+2014-04-09 21:27:08 StandardManager[/admin]: Seeding of random number generator has been completed
+2014-04-09 21:27:08 StandardWrapper[/admin:default]: Loading container servlet default
+2014-04-09 21:27:14 StandardWrapper[/admin:invoker]: Loading container servlet invoker
+2014-04-09 22:08:01 WebappLoader[/admin]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/admin
+2014-04-09 22:08:01 WebappLoader[/admin]: Deploy class files /WEB-INF/classes to /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/../server/webapps/admin/WEB-INF/classes
+2014-04-09 22:08:01 WebappLoader[/admin]: Deploy JAR /WEB-INF/lib/struts.jar to /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/../server/webapps/admin/WEB-INF/lib/struts.jar
+2014-04-09 22:08:02 ContextConfig[/admin]: Configured an authenticator for method FORM
+2014-04-09 22:08:02 StandardManager[/admin]: Seeding random number generator class java.security.SecureRandom
+2014-04-09 22:08:02 StandardManager[/admin]: Seeding of random number generator has been completed
+2014-04-09 22:08:02 StandardWrapper[/admin:default]: Loading container servlet default
+2014-04-09 22:08:08 StandardWrapper[/admin:invoker]: Loading container servlet invoker

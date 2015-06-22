@@ -1,0 +1,438 @@
+[Thu Feb 20 15:16:11 2014] [notice] Apache/2.2.22 (Unix) configured -- resuming normal operations
+[Thu Feb 20 15:18:39 2014] [notice] caught SIGTERM, shutting down
+[Thu Feb 20 21:26:08 2014] [notice] Apache/2.2.22 (Unix) configured -- resuming normal operations
+[Thu Feb 20 21:27:16 2014] [error] server reached MaxClients setting, consider raising the MaxClients setting
+[Thu Feb 20 21:27:17 2014] [error] [client 108.185.96.103] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Feb 20 21:28:50 2014] [error] [client 108.185.96.103] (13)Permission denied: exec of '/home/scf-04/neelamag/apache/cgi-bin/test-cgi' failed
+[Thu Feb 20 21:28:50 2014] [error] [client 108.185.96.103] Premature end of script headers: test-cgi
+[Thu Feb 20 21:30:18 2014] [error] [client 108.185.96.103] (13)Permission denied: exec of '/home/scf-04/neelamag/apache/cgi-bin/test-cgi' failed
+[Thu Feb 20 21:30:18 2014] [error] [client 108.185.96.103] Premature end of script headers: test-cgi
+[Thu Feb 20 21:30:20 2014] [error] [client 108.185.96.103] (13)Permission denied: exec of '/home/scf-04/neelamag/apache/cgi-bin/test-cgi' failed
+[Thu Feb 20 21:30:20 2014] [error] [client 108.185.96.103] Premature end of script headers: test-cgi
+[Thu Feb 20 21:30:43 2014] [error] [client 108.185.96.103] (13)Permission denied: exec of '/home/scf-04/neelamag/apache/cgi-bin/test-cgi' failed
+[Thu Feb 20 21:30:43 2014] [error] [client 108.185.96.103] Premature end of script headers: test-cgi
+[Thu Feb 20 21:41:10 2014] [error] [client 108.185.96.103] (2)No such file or directory: exec of '/home/scf-04/neelamag/apache/cgi-bin/printenv' failed
+[Thu Feb 20 21:41:10 2014] [error] [client 108.185.96.103] Premature end of script headers: printenv
+[Thu Feb 20 21:41:13 2014] [error] [client 108.185.96.103] (2)No such file or directory: exec of '/home/scf-04/neelamag/apache/cgi-bin/printenv' failed
+[Thu Feb 20 21:41:13 2014] [error] [client 108.185.96.103] Premature end of script headers: printenv
+[Sat Mar 01 12:19:50 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sat Mar 01 22:26:21 2014] [notice] caught SIGTERM, shutting down
+[Sat Mar 01 22:27:50 2014] [notice] Apache/2.2.22 (Unix) PHP/5.4.5 configured -- resuming normal operations
+[Sat Mar 01 22:35:28 2014] [error] server reached MaxClients setting, consider raising the MaxClients setting
+[Sat Mar 01 22:35:29 2014] [error] [client 108.185.102.49] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sun Mar 02 01:53:33 2014] [error] [client 108.185.102.49] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sun Mar 02 01:53:33 2014] [error] [client 108.185.102.49] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sun Mar 02 12:39:16 2014] [error] [client 108.185.102.49] File does not exist: /home/scf-04/neelamag/apache/htdocs/HW6.html
+[Sun Mar 02 19:30:04 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sun Mar 02 19:30:43 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sun Mar 02 19:30:43 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sun Mar 02 19:41:31 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sun Mar 02 20:55:50 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/HW6.html
+[Sun Mar 02 21:06:08 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sun Mar 02 22:32:30 2014] [error] [client 76.170.76.108] PHP Warning:  file_get_contents(http://search.yahooapis.com/ImageSearchService/V1/imageSearch?appid=YahooDemo&amp;query=Al+Gore&amp;results=1): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found\r\n in /home/scf-04/neelamag/apache/htdocs/new5.php on line 13
+[Mon Mar 03 16:50:22 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected 'inputvalue' (T_STRING), expecting variable (T_VARIABLE) or '$' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 29
+[Mon Mar 03 16:50:55 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 30
+[Mon Mar 03 16:50:56 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 30
+[Mon Mar 03 16:53:41 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 32
+[Mon Mar 03 16:53:48 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 32
+[Mon Mar 03 16:54:27 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 32
+[Mon Mar 03 16:54:28 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 32
+[Mon Mar 03 16:54:28 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 32
+[Mon Mar 03 16:54:28 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 32
+[Mon Mar 03 16:54:28 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 32
+[Mon Mar 03 16:54:29 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 32
+[Mon Mar 03 16:54:29 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 32
+[Mon Mar 03 16:54:29 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 32
+[Mon Mar 03 16:54:29 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 32
+[Mon Mar 03 17:50:59 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 34
+[Mon Mar 03 17:51:27 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 34
+[Mon Mar 03 17:52:47 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 34
+[Mon Mar 03 17:52:48 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 34
+[Mon Mar 03 17:53:26 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 34
+[Mon Mar 03 18:00:00 2014] [error] [client 68.181.62.23] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 21
+[Mon Mar 03 18:00:39 2014] [error] [client 68.181.62.23] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 21
+[Mon Mar 03 18:00:50 2014] [error] [client 68.181.62.23] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 21
+[Mon Mar 03 18:00:51 2014] [error] [client 68.181.62.23] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 21
+[Mon Mar 03 18:01:39 2014] [error] [client 68.181.62.23] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 21
+[Mon Mar 03 18:09:57 2014] [error] [client 68.181.62.23] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Mon Mar 03 18:09:57 2014] [error] [client 68.181.62.23] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Mon Mar 03 18:10:15 2014] [error] [client 68.181.62.23] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 5, referer: http://cs-server.usc.edu:20513/
+[Mon Mar 03 18:10:42 2014] [error] [client 68.181.62.23] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 5, referer: http://cs-server.usc.edu:20513/
+[Mon Mar 03 18:13:57 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected '$note' (T_VARIABLE) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 19, referer: http://cs-server.usc.edu:20513/
+[Mon Mar 03 18:26:38 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 19, referer: http://cs-server.usc.edu:20513/
+[Mon Mar 03 18:36:20 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected '=' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 21, referer: http://cs-server.usc.edu:20513/
+[Mon Mar 03 19:25:04 2014] [error] [client 68.181.62.23] PHP Parse error:  syntax error, unexpected '.' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 23, referer: http://cs-server.usc.edu:20513/
+[Mon Mar 03 19:42:13 2014] [error] [client 68.181.62.23] PHP Notice:  Use of undefined constant ch_per - assumed 'ch_per' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 25, referer: http://cs-server.usc.edu:20513/
+[Mon Mar 03 21:17:47 2014] [error] [client 68.181.62.23] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12
+[Mon Mar 03 21:17:49 2014] [error] [client 68.181.62.23] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Mon Mar 03 21:17:49 2014] [error] [client 68.181.62.23] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Mon Mar 03 21:18:02 2014] [error] [client 68.181.62.23] PHP Notice:  Use of undefined constant chper - assumed 'chper' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 33, referer: http://cs-server.usc.edu:20513/
+[Mon Mar 03 21:26:02 2014] [error] [client 68.181.62.23] PHP Notice:  Use of undefined constant sign - assumed 'sign' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 42, referer: http://cs-server.usc.edu:20513/
+[Mon Mar 03 21:26:02 2014] [error] [client 68.181.62.23] PHP Notice:  Undefined variable: image in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 48, referer: http://cs-server.usc.edu:20513/
+[Mon Mar 03 21:27:15 2014] [error] [client 68.181.62.23] PHP Notice:  Undefined variable: image in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 48, referer: http://cs-server.usc.edu:20513/
+[Mon Mar 03 21:28:23 2014] [error] [client 68.181.62.23] File does not exist: /home/scf-04/neelamag/apache/htdocs/down_r.gif/, referer: http://cs-server.usc.edu:20513/HW6.php
+[Mon Mar 03 21:28:55 2014] [error] [client 68.181.62.23] File does not exist: /home/scf-04/neelamag/apache/htdocs/down_r.gif/, referer: http://cs-server.usc.edu:20513/HW6.php
+[Mon Mar 03 21:29:03 2014] [error] [client 68.181.62.23] File does not exist: /home/scf-04/neelamag/apache/htdocs/down_r.gif/, referer: http://cs-server.usc.edu:20513/HW6.php
+[Mon Mar 03 21:29:50 2014] [error] [client 68.181.62.23] File does not exist: /home/scf-04/neelamag/apache/htdocs/up_g.gif/, referer: http://cs-server.usc.edu:20513/HW6.php
+[Mon Mar 03 21:30:06 2014] [error] [client 68.181.62.23] File does not exist: /home/scf-04/neelamag/apache/htdocs/down_r.gif/, referer: http://cs-server.usc.edu:20513/HW6.php
+[Mon Mar 03 21:30:36 2014] [error] [client 68.181.62.23] File does not exist: /home/scf-04/neelamag/apache/htdocs/down_r.gif/, referer: http://cs-server.usc.edu:20513/HW6.php
+[Mon Mar 03 21:30:42 2014] [error] [client 68.181.62.23] File does not exist: /home/scf-04/neelamag/apache/htdocs/down_r.gif/, referer: http://cs-server.usc.edu:20513/HW6.php
+[Mon Mar 03 21:31:21 2014] [error] [client 68.181.62.23] File does not exist: /home/scf-04/neelamag/apache/htdocs/down_r.gif/, referer: http://cs-server.usc.edu:20513/HW6.php
+[Mon Mar 03 21:31:29 2014] [error] [client 68.181.62.23] File does not exist: /home/scf-04/neelamag/apache/htdocs/down_r.gif/, referer: http://cs-server.usc.edu:20513/HW6.php
+[Mon Mar 03 21:32:23 2014] [error] [client 68.181.62.23] File does not exist: /home/scf-04/neelamag/apache/htdocs/down_r.gif/, referer: http://cs-server.usc.edu:20513/HW6.php
+[Mon Mar 03 21:33:41 2014] [error] [client 68.181.62.23] File does not exist: /home/scf-04/neelamag/apache/htdocs/down_r.gif/, referer: http://cs-server.usc.edu:20513/HW6.php
+[Mon Mar 03 22:36:23 2014] [error] [client 68.181.63.42] PHP Warning:  number_format() expects parameter 1 to be double, object given in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 30, referer: http://cs-server.usc.edu:20513/
+[Mon Mar 03 22:50:03 2014] [error] [client 68.181.63.42] PHP Parse error:  syntax error, unexpected ';' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 62, referer: http://cs-server.usc.edu:20513/
+[Mon Mar 03 23:13:08 2014] [error] [client 68.181.63.42] PHP Fatal error:  Call to undefined function numberformat() in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 28, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 00:00:15 2014] [error] [client 68.181.63.42] PHP Notice:  Undefined variable: image in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 53, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 00:08:26 2014] [error] [client 68.181.63.42] PHP Parse error:  syntax error, unexpected '&' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 28, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 00:11:04 2014] [error] [client 68.181.63.42] PHP Notice:  Undefined variable: image in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 55, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 14:51:12 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Tue Mar 04 15:10:07 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Tue Mar 04 15:10:08 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Tue Mar 04 15:10:13 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12, referer: http://cs-server.usc.edu:20513/HW6.php
+[Tue Mar 04 15:11:04 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12, referer: http://cs-server.usc.edu:20513/HW6.php
+[Tue Mar 04 15:12:37 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Tue Mar 04 15:12:37 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Tue Mar 04 15:12:41 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected '$fullstring' (T_VARIABLE), expecting ',' or ';' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 60, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 15:13:37 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12, referer: http://cs-server.usc.edu:20513/HW6.php
+[Tue Mar 04 15:18:20 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12, referer: http://cs-server.usc.edu:20513/HW6.php
+[Tue Mar 04 15:20:05 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected '$fullstring' (T_VARIABLE), expecting ',' or ';' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 60, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 15:26:56 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected '$fullstring' (T_VARIABLE), expecting ',' or ';' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 61, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 15:27:01 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected '$fullstring' (T_VARIABLE), expecting ',' or ';' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 61, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 15:27:18 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected '$fullstring' (T_VARIABLE), expecting ',' or ';' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 61, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 15:27:22 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected '$fullstring' (T_VARIABLE), expecting ',' or ';' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 61, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 15:31:08 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12, referer: http://cs-server.usc.edu:20513/HW6.php
+[Tue Mar 04 15:31:17 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12, referer: http://cs-server.usc.edu:20513/HW6.php
+[Tue Mar 04 15:32:18 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: image in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 54, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 15:35:55 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: ch in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 37, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 15:35:55 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: ch in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 38, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 15:40:44 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12
+[Tue Mar 04 15:40:59 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12, referer: http://cs-server.usc.edu:20513/HW6.php
+[Tue Mar 04 16:09:53 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12, referer: http://cs-server.usc.edu:20513/HW6.php
+[Tue Mar 04 16:10:02 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12, referer: http://cs-server.usc.edu:20513/HW6.php
+[Tue Mar 04 16:10:11 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12, referer: http://cs-server.usc.edu:20513/HW6.php
+[Tue Mar 04 16:27:56 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 98, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 16:28:09 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 98, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 16:28:12 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 98, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 16:29:21 2014] [error] [client 76.170.76.108] PHP Fatal error:  Call to undefined method SimpleXMLElement::getchildren() in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 98, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 16:31:33 2014] [error] [client 76.170.76.108] PHP Fatal error:  Call to undefined method SimpleXMLElement::getChildren() in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 98, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 16:31:56 2014] [error] [client 76.170.76.108] PHP Notice:  Use of undefined constant getName - assumed 'getName' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 100, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 16:46:06 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12
+[Tue Mar 04 17:09:37 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected ')', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 102, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 17:12:07 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected ')', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 102, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 17:13:25 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12
+[Tue Mar 04 17:21:56 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: news in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 107, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 17:22:37 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: news in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 107, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 17:22:40 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: news in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 107, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 17:25:29 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected '=' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 107, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 17:33:25 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected '<' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 98
+[Tue Mar 04 17:34:04 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12
+[Tue Mar 04 17:51:54 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12, referer: http://cs-server.usc.edu:20513/HW6.php
+[Tue Mar 04 18:07:00 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: linki in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 111, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 18:07:00 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12, referer: http://cs-server.usc.edu:20513/HW6.php
+[Tue Mar 04 18:10:25 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12, referer: http://cs-server.usc.edu:20513/HW6.php
+[Tue Mar 04 18:11:03 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12, referer: http://cs-server.usc.edu:20513/HW6.php
+[Tue Mar 04 18:11:13 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12, referer: http://cs-server.usc.edu:20513/HW6.php
+[Tue Mar 04 18:11:29 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: linki in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 111, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 18:11:30 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12, referer: http://cs-server.usc.edu:20513/HW6.php
+[Tue Mar 04 18:11:42 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12, referer: http://cs-server.usc.edu:20513/HW6.php
+[Tue Mar 04 18:14:59 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected ')' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 25, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 18:15:01 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected ')' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 25, referer: http://cs-server.usc.edu:20513/
+[Tue Mar 04 18:21:53 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 12, referer: http://cs-server.usc.edu:20513/HW6.php
+[Wed Mar 05 11:31:17 2014] [error] [client 68.181.48.144] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Wed Mar 05 11:31:17 2014] [error] [client 68.181.48.144] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Wed Mar 05 11:31:30 2014] [error] [client 68.181.48.144] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/new5.php on line 15
+[Wed Mar 05 11:31:42 2014] [error] [client 68.181.48.144] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/new5.php on line 15
+[Wed Mar 05 11:35:32 2014] [error] [client 68.181.48.144] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 28, referer: http://cs-server.usc.edu:20513/new5.php
+[Wed Mar 05 11:35:53 2014] [error] [client 68.181.48.144] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 28, referer: http://cs-server.usc.edu:20513/new5.php
+[Wed Mar 05 11:45:53 2014] [error] [client 68.181.48.144] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 33
+[Wed Mar 05 11:46:41 2014] [error] [client 68.181.48.144] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 33
+[Wed Mar 05 11:46:59 2014] [error] [client 68.181.48.144] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 17
+[Wed Mar 05 11:47:01 2014] [error] [client 68.181.48.144] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 17
+[Wed Mar 05 11:47:47 2014] [error] [client 68.181.48.144] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 27
+[Wed Mar 05 11:47:52 2014] [error] [client 68.181.48.144] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 27
+[Wed Mar 05 11:49:46 2014] [error] [client 68.181.48.144] PHP Parse error:  syntax error, unexpected '{' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 18
+[Wed Mar 05 11:49:47 2014] [error] [client 68.181.48.144] PHP Parse error:  syntax error, unexpected '{' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 18
+[Wed Mar 05 11:49:48 2014] [error] [client 68.181.48.144] PHP Parse error:  syntax error, unexpected '{' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 18
+[Wed Mar 05 11:49:48 2014] [error] [client 68.181.48.144] PHP Parse error:  syntax error, unexpected '{' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 18
+[Wed Mar 05 11:49:49 2014] [error] [client 68.181.48.144] PHP Parse error:  syntax error, unexpected '{' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 18
+[Wed Mar 05 11:50:45 2014] [error] [client 68.181.48.144] PHP Parse error:  syntax error, unexpected '{' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 18
+[Wed Mar 05 11:50:46 2014] [error] [client 68.181.48.144] PHP Parse error:  syntax error, unexpected '{' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 18
+[Wed Mar 05 11:50:49 2014] [error] [client 68.181.48.144] PHP Parse error:  syntax error, unexpected '{' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 18
+[Wed Mar 05 11:50:50 2014] [error] [client 68.181.48.144] PHP Parse error:  syntax error, unexpected '{' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 18
+[Wed Mar 05 11:51:22 2014] [error] [client 68.181.48.144] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 27
+[Wed Mar 05 11:52:23 2014] [error] [client 68.181.48.144] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 27
+[Wed Mar 05 13:25:37 2014] [error] [client 68.181.48.144] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Wed Mar 05 13:25:37 2014] [error] [client 68.181.48.144] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Wed Mar 05 13:36:50 2014] [error] [client 68.181.63.14] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Wed Mar 05 13:36:50 2014] [error] [client 68.181.63.14] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Wed Mar 05 16:08:18 2014] [error] [client 76.170.76.108] PHP Warning:  number_format() expects parameter 1 to be double, object given in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 92, referer: http://cs-server.usc.edu:20513/HW6.php
+[Wed Mar 05 16:08:18 2014] [error] [client 76.170.76.108] PHP Warning:  number_format() expects parameter 1 to be double, object given in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 96, referer: http://cs-server.usc.edu:20513/HW6.php
+[Wed Mar 05 17:03:44 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Wed Mar 05 17:12:26 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Wed Mar 05 17:12:41 2014] [error] [client 76.170.76.108] PHP Warning:  number_format() expects parameter 1 to be double, object given in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 92, referer: http://cs-server.usc.edu:20513/HW6.php
+[Wed Mar 05 17:12:41 2014] [error] [client 76.170.76.108] PHP Warning:  number_format() expects parameter 1 to be double, object given in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 96, referer: http://cs-server.usc.edu:20513/HW6.php
+[Thu Mar 06 01:02:53 2014] [error] [client 76.170.76.108] PHP Warning:  simplexml_load_file(http://query.yahooapis.com/v1/public/yql?q=Select%2520Name%252C%2520Symbol%252C%2520LastTradePriceOnly%252C%2520Change%252C%2520ChangeinPercent%252C%2520PreviousClose%252C%2520DaysLow%252C%2520DaysHigh%252C%2520Open%252C%2520YearLow%252C%2520YearHigh%252C%2520Bid%252C%2520Ask%252C%2520AverageDailyVolume%252C%2520OneyrTargetPrice%252C%2520MarketCapitalization%252C%2520Volume%252C%2520Open%252C%2520YearLow%2520from%2520yahoo.finance.quotes%2520where%2520symbol%253D%2522y%20h%2522&amp;env=store%253A%252F%252Fdatatables.org%252Falltableswithkeys): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request\r\n in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 30, referer: http://cs-server.usc.edu:20513/HW6.php
+[Thu Mar 06 01:02:53 2014] [error] [client 76.170.76.108] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;http://query.yahooapis.com/v1/public/yql?q=Select%2520Name%252C%2520Symbol%252C%2520LastTradePriceOnly%252C%2520Change%252C%2520ChangeinPercent%252C%2520PreviousClose%252C%2520DaysLow%252C%2520DaysHigh%252C%2520Open%252C%2520YearLow%252C%2520YearHigh%252C%2520Bid%252C%2520Ask%252C%2520AverageDailyVolume%252C%2520OneyrTargetPrice%252C%2520MarketCapitalization%252C%2520Volume%252C%2520Open%252C%2520YearLow%2520from%2520yahoo.finance.quotes%2520where%2520symbol%253D%2522y%20h%2522&amp;env=store%253A%252F%252Fdatatables.org%252Falltableswithkeys&quot; in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 30, referer: http://cs-server.usc.edu:20513/HW6.php
+[Thu Mar 06 01:02:53 2014] [error] [client 76.170.76.108] PHP Notice:  Trying to get property of non-object in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 31, referer: http://cs-server.usc.edu:20513/HW6.php
+[Thu Mar 06 01:02:53 2014] [error] [client 76.170.76.108] PHP Notice:  Trying to get property of non-object in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 31, referer: http://cs-server.usc.edu:20513/HW6.php
+[Thu Mar 06 01:02:53 2014] [error] [client 76.170.76.108] PHP Notice:  Trying to get property of non-object in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 31, referer: http://cs-server.usc.edu:20513/HW6.php
+[Thu Mar 06 16:30:08 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 06 16:30:08 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 06 16:34:30 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 06 16:34:30 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 06 16:59:44 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 06 16:59:44 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 06 17:05:50 2014] [error] [client 76.170.76.108] PHP Fatal error:  Can't use function return value in write context in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 22, referer: http://cs-server.usc.edu:20513/HW6.php
+[Thu Mar 06 17:11:21 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected '{' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 25, referer: http://cs-server.usc.edu:20513/HW6.php
+[Thu Mar 06 17:11:23 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected '{' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 25, referer: http://cs-server.usc.edu:20513/HW6.php
+[Thu Mar 06 17:11:31 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected '{' in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 25, referer: http://www-scf.usc.edu/~neelamag/garwal.html
+[Thu Mar 06 17:12:43 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined index: input in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 22, referer: http://www-scf.usc.edu/~neelamag/garwal.html
+[Thu Mar 06 18:24:53 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: linki in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 140, referer: http://cs-server.usc.edu:20513/HW6.php
+[Thu Mar 06 18:26:20 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: linki in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 140, referer: http://cs-server.usc.edu:20513/HW6.php
+[Thu Mar 06 18:47:11 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: linki in /home/scf-04/neelamag/apache/htdocs/HW6.php on line 146, referer: http://cs-server.usc.edu:20513/HW6.php
+[Thu Mar 06 19:09:31 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 06 19:17:16 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 06 20:08:38 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 06 20:08:38 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 06 21:14:54 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 06 21:14:54 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 06 23:13:04 2014] [error] [client 128.107.239.233] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 06 23:13:40 2014] [error] [client 128.107.239.233] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 06 23:13:41 2014] [error] [client 128.107.239.233] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 06 23:23:08 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 06 23:23:08 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Fri Mar 07 20:17:05 2014] [error] [client 66.249.88.105] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sat Mar 08 14:01:26 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sat Mar 08 15:16:33 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sat Mar 08 15:43:16 2014] [error] [client 76.126.54.160] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sun Mar 09 23:58:43 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Tue Mar 11 11:17:51 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Wed Mar 12 21:32:10 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 13 22:24:07 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sat Mar 15 14:17:40 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sun Mar 16 18:34:49 2014] [error] [client 67.160.195.220] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sun Mar 16 20:36:52 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Mon Mar 17 23:12:57 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Wed Mar 19 04:18:32 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Wed Mar 19 12:22:38 2014] [error] [client 142.136.125.44] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Wed Mar 19 12:22:38 2014] [error] [client 142.136.125.44] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 20 15:07:53 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Tue Mar 25 00:45:22 2014] [error] [client 76.173.100.10] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Tue Mar 25 10:39:33 2014] [error] [client 206.117.88.6] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Tue Mar 25 11:33:19 2014] [error] [client 142.136.125.44] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Tue Mar 25 11:33:19 2014] [error] [client 142.136.125.44] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 27 14:33:12 2014] [error] [client 108.252.22.176] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 27 17:04:26 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 27 21:33:41 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Mar 27 21:33:41 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Fri Mar 28 19:14:26 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Fri Mar 28 19:14:26 2014] [error] [client 76.170.76.108] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Fri Mar 28 19:14:39 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected '(' in /home/scf-04/neelamag/apache/htdocs/HW8.php on line 152
+[Fri Mar 28 19:15:51 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected '(' in /home/scf-04/neelamag/apache/htdocs/HW8.php on line 152
+[Fri Mar 28 19:15:53 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected '(' in /home/scf-04/neelamag/apache/htdocs/HW8.php on line 152
+[Fri Mar 28 19:16:42 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: chper in /home/scf-04/neelamag/apache/htdocs/HW8.php on line 59, referer: http://cs-server.usc.edu:20513/HW8.php
+[Fri Mar 28 19:16:42 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: ch in /home/scf-04/neelamag/apache/htdocs/HW8.php on line 60, referer: http://cs-server.usc.edu:20513/HW8.php
+[Fri Mar 28 19:16:42 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: chper in /home/scf-04/neelamag/apache/htdocs/HW8.php on line 61, referer: http://cs-server.usc.edu:20513/HW8.php
+[Fri Mar 28 19:24:48 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: chper in /home/scf-04/neelamag/apache/htdocs/HW8.php on line 59, referer: http://cs-server.usc.edu:20513/HW8.php
+[Fri Mar 28 19:24:48 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: ch in /home/scf-04/neelamag/apache/htdocs/HW8.php on line 60, referer: http://cs-server.usc.edu:20513/HW8.php
+[Fri Mar 28 19:24:48 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: chper in /home/scf-04/neelamag/apache/htdocs/HW8.php on line 61, referer: http://cs-server.usc.edu:20513/HW8.php
+[Fri Mar 28 19:24:54 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: chper in /home/scf-04/neelamag/apache/htdocs/HW8.php on line 59, referer: http://cs-server.usc.edu:20513/HW8.php
+[Fri Mar 28 19:24:54 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: ch in /home/scf-04/neelamag/apache/htdocs/HW8.php on line 60, referer: http://cs-server.usc.edu:20513/HW8.php
+[Fri Mar 28 19:24:54 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: chper in /home/scf-04/neelamag/apache/htdocs/HW8.php on line 61, referer: http://cs-server.usc.edu:20513/HW8.php
+[Fri Mar 28 19:25:29 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: ch in /home/scf-04/neelamag/apache/htdocs/HW8.php on line 88, referer: http://cs-server.usc.edu:20513/HW8.php
+[Fri Mar 28 19:25:29 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: chper in /home/scf-04/neelamag/apache/htdocs/HW8.php on line 89, referer: http://cs-server.usc.edu:20513/HW8.php
+[Fri Mar 28 19:48:30 2014] [error] [client 76.170.76.108] PHP Notice:  Undefined variable: name in /home/scf-04/neelamag/apache/htdocs/HW8.php on line 52, referer: http://cs-server.usc.edu:20513/HW8.php
+[Fri Mar 28 20:52:16 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/scf-04/neelamag/apache/htdocs/HW8.php on line 51, referer: http://cs-server.usc.edu:20513/HW8.php
+[Fri Mar 28 21:08:35 2014] [error] [client 76.170.76.108] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/scf-04/neelamag/apache/htdocs/HW8.php on line 54, referer: http://cs-server.usc.edu:20513/HW8.php
+[Sat Mar 29 17:36:52 2014] [error] [client 68.181.57.48] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sat Mar 29 17:36:52 2014] [error] [client 68.181.57.48] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sat Mar 29 17:37:03 2014] [error] [client 68.181.57.48] PHP Notice:  Undefined variable: News in /home/scf-04/neelamag/apache/htdocs/hw_8.php on line 78
+[Sat Mar 29 17:37:03 2014] [error] [client 68.181.57.48] PHP Fatal error:  Call to a member function addChild() on a non-object in /home/scf-04/neelamag/apache/htdocs/hw_8.php on line 78
+[Sat Mar 29 18:32:31 2014] [error] [client 68.181.57.48] script '/home/scf-04/neelamag/apache/htdocs/new.php' not found or unable to stat
+[Sat Mar 29 18:32:44 2014] [error] [client 68.181.57.48] PHP Notice:  Undefined variable: xmlstr in /home/scf-04/neelamag/apache/htdocs/NEW.php on line 10
+[Sat Mar 29 18:32:44 2014] [error] [client 68.181.57.48] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/scf-04/neelamag/apache/htdocs/NEW.php:10\nStack trace:\n#0 /home/scf-04/neelamag/apache/htdocs/NEW.php(10): SimpleXMLElement->__construct('')\n#1 {main}\n  thrown in /home/scf-04/neelamag/apache/htdocs/NEW.php on line 10
+[Sat Mar 29 18:33:20 2014] [error] [client 68.181.57.48] PHP Parse error:  syntax error, unexpected '<', expecting ')' in /home/scf-04/neelamag/apache/htdocs/NEW.php on line 10
+[Sat Mar 29 18:38:35 2014] [error] [client 68.181.57.48] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sat Mar 29 18:38:35 2014] [error] [client 68.181.57.48] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sat Mar 29 18:47:31 2014] [error] [client 68.181.57.48] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference        ru=yahoo in /home/scf-04/neelamag/apache/htdocs/hw_8.php on line 88
+[Sat Mar 29 18:47:31 2014] [error] [client 68.181.57.48] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference        ru=yahoo in /home/scf-04/neelamag/apache/htdocs/hw_8.php on line 88
+[Sat Mar 29 18:47:34 2014] [error] [client 68.181.57.48] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference        ru=yahoo in /home/scf-04/neelamag/apache/htdocs/hw_8.php on line 88
+[Sat Mar 29 18:47:34 2014] [error] [client 68.181.57.48] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference        ru=yahoo in /home/scf-04/neelamag/apache/htdocs/hw_8.php on line 88
+[Thu Apr 03 14:42:41 2014] [warn] pid file /home/scf-04/neelamag/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 03 14:42:41 2014] [notice] Apache/2.2.22 (Unix) PHP/5.4.5 configured -- resuming normal operations
+[Thu Apr 03 14:42:49 2014] [error] server reached MaxClients setting, consider raising the MaxClients setting
+[Thu Apr 03 14:42:49 2014] [error] [client 75.82.221.237] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Apr 03 14:42:49 2014] [error] [client 75.82.221.237] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Apr 03 15:45:11 2014] [error] [client 75.82.221.237] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Apr 03 15:45:11 2014] [error] [client 75.82.221.237] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Apr 03 15:53:10 2014] [error] [client 75.82.221.237] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 4
+[Thu Apr 03 15:53:10 2014] [error] [client 75.82.221.237] PHP Notice:  Undefined index: type in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 5
+[Thu Apr 03 15:53:10 2014] [error] [client 75.82.221.237] PHP Notice:  Undefined index: tempunit in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 6
+[Thu Apr 03 15:53:10 2014] [error] [client 75.82.221.237] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 99
+[Thu Apr 03 16:08:24 2014] [error] [client 75.82.221.237] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 4
+[Thu Apr 03 16:08:24 2014] [error] [client 75.82.221.237] PHP Notice:  Undefined index: type in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 5
+[Thu Apr 03 16:08:24 2014] [error] [client 75.82.221.237] PHP Notice:  Undefined index: tempunit in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 6
+[Thu Apr 03 16:08:24 2014] [error] [client 75.82.221.237] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 99
+[Thu Apr 03 16:58:13 2014] [error] [client 75.82.221.237] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Apr 03 17:23:16 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Fri Apr 04 11:03:33 2014] [error] [client 75.82.221.237] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Fri Apr 04 11:03:33 2014] [error] [client 75.82.221.237] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sat Apr 05 10:08:27 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 4
+[Sat Apr 05 10:08:27 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: type in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 5
+[Sat Apr 05 10:08:27 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: tempunit in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 6
+[Sat Apr 05 10:08:27 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 99
+[Sat Apr 05 11:39:19 2014] [error] [client 66.249.85.105] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sat Apr 05 19:47:10 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sat Apr 05 20:00:11 2014] [error] [client 75.82.220.12] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sat Apr 05 20:00:11 2014] [error] [client 75.82.220.12] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sat Apr 05 21:48:07 2014] [error] [client 162.198.94.18] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sat Apr 05 21:48:08 2014] [error] [client 162.198.94.18] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Mon Apr 07 10:43:40 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Mon Apr 07 17:04:59 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 4
+[Mon Apr 07 17:04:59 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: type in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 5
+[Mon Apr 07 17:04:59 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: tempunit in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 6
+[Mon Apr 07 17:04:59 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 99
+[Mon Apr 07 17:06:13 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 4
+[Mon Apr 07 17:06:13 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: type in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 5
+[Mon Apr 07 17:06:13 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: tempunit in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 6
+[Mon Apr 07 17:06:13 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 99
+[Mon Apr 07 17:06:15 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 4
+[Mon Apr 07 17:06:15 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: type in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 5
+[Mon Apr 07 17:06:15 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: tempunit in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 6
+[Mon Apr 07 17:06:15 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 99
+[Mon Apr 07 17:06:15 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 4
+[Mon Apr 07 17:06:15 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: type in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 5
+[Mon Apr 07 17:06:15 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: tempunit in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 6
+[Mon Apr 07 17:06:15 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 99
+[Mon Apr 07 17:06:16 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 4
+[Mon Apr 07 17:06:16 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: type in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 5
+[Mon Apr 07 17:06:16 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: tempunit in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 6
+[Mon Apr 07 17:06:16 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 99
+[Mon Apr 07 17:06:24 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 4
+[Mon Apr 07 17:06:24 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: type in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 5
+[Mon Apr 07 17:06:24 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: tempunit in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 6
+[Mon Apr 07 17:06:24 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 99
+[Mon Apr 07 17:07:48 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 4
+[Mon Apr 07 17:07:48 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: type in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 5
+[Mon Apr 07 17:07:48 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: tempunit in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 6
+[Mon Apr 07 17:07:48 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 99
+[Mon Apr 07 17:08:04 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 98
+[Mon Apr 07 17:08:25 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 98
+[Mon Apr 07 17:19:50 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 3
+[Mon Apr 07 17:19:50 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: type in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 4
+[Mon Apr 07 17:19:50 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: tempunit in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 5
+[Mon Apr 07 17:19:50 2014] [error] [client 75.82.220.12] PHP Notice:  Undefined index: location in /home/scf-04/neelamag/apache/htdocs/yahooweather.php on line 98
+[Mon Apr 07 17:31:41 2014] [error] [client 75.82.220.12] script '/home/scf-04/neelamag/apache/htdocs/HW8.php' not found or unable to stat
+[Mon Apr 07 17:31:41 2014] [error] [client 75.82.220.12] script '/home/scf-04/neelamag/apache/htdocs/hw_8.php' not found or unable to stat
+[Mon Apr 07 17:31:41 2014] [error] [client 75.82.220.12] script '/home/scf-04/neelamag/apache/htdocs/new5.php' not found or unable to stat
+[Mon Apr 07 17:32:57 2014] [error] [client 75.82.220.12] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Mon Apr 07 18:17:46 2014] [error] [client 75.82.220.12] File does not exist: /home/scf-04/neelamag/apache/htdocs/examples
+[Mon Apr 07 19:13:43 2014] [error] [client 75.82.220.12] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Mon Apr 07 19:13:43 2014] [error] [client 75.82.220.12] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Mon Apr 07 20:30:46 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Mon Apr 07 20:31:35 2014] [error] [client 68.181.50.28] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Mon Apr 07 20:31:36 2014] [error] [client 68.181.50.28] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Mon Apr 07 22:26:33 2014] [error] [client 68.181.50.28] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Tue Apr 08 10:19:42 2014] [error] [client 66.249.85.105] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Tue Apr 08 20:26:15 2014] [error] [client 68.181.51.3] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Tue Apr 08 20:26:15 2014] [error] [client 68.181.51.3] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Tue Apr 08 20:26:18 2014] [error] [client 68.181.51.3] File does not exist: /home/scf-04/neelamag/apache/htdocs/examples
+[Wed Apr 09 10:07:50 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Wed Apr 09 13:44:38 2014] [error] [client 68.181.51.99] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Wed Apr 09 13:46:10 2014] [error] [client 68.181.51.99] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Wed Apr 09 13:46:10 2014] [error] [client 68.181.51.99] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Wed Apr 09 14:43:43 2014] [error] [client 68.181.51.116] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Wed Apr 09 14:43:43 2014] [error] [client 68.181.51.116] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Wed Apr 09 14:52:01 2014] [error] [client 68.181.51.116] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Wed Apr 09 15:32:41 2014] [error] [client 68.181.51.116] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Wed Apr 09 15:32:41 2014] [error] [client 68.181.51.116] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Apr 10 10:25:39 2014] [error] [client 66.249.85.105] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Apr 10 13:26:44 2014] [error] [client 68.181.195.44] PHP Warning:  simplexml_load_file(http://query.yahooapis.com/v1/public/yql?q=Select%2520Name%252C%2520Symbol%252C%2520LastTradePriceOnly%252C%2520Change%252C%2520ChangeinPercent%252C%2520PreviousClose%252C%2520DaysLow%252C%2520DaysHigh%252C%2520Open%252C%2520YearLow%252C%2520YearHigh%252C%2520Bid%252C%2520Ask%252C%2520AverageDailyVolume%252C%2520OneyrTargetPrice%252C%2520MarketCapitalization%252C%2520Volume%252C%2520Open%252C%2520YearLow%2520from%2520yahoo.finance.quotes%2520where%2520symbol%253D%2522%5EGSPC%2522&amp;env=store%253A%252F%252Fdatatables.org%252Falltableswithkeys): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request\r\n in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 21
+[Thu Apr 10 13:26:44 2014] [error] [client 68.181.195.44] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;http://query.yahooapis.com/v1/public/yql?q=Select%2520Name%252C%2520Symbol%252C%2520LastTradePriceOnly%252C%2520Change%252C%2520ChangeinPercent%252C%2520PreviousClose%252C%2520DaysLow%252C%2520DaysHigh%252C%2520Open%252C%2520YearLow%252C%2520YearHigh%252C%2520Bid%252C%2520Ask%252C%2520AverageDailyVolume%252C%2520OneyrTargetPrice%252C%2520MarketCapitalization%252C%2520Volume%252C%2520Open%252C%2520YearLow%2520from%2520yahoo.finance.quotes%2520where%2520symbol%253D%2522%5EGSPC%2522&amp;env=store%253A%252F%252Fdatatables.org%252Falltableswithkeys&quot; in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 21
+[Thu Apr 10 14:46:51 2014] [error] [client 206.117.88.9] PHP Notice:  Undefined index: CompanyName in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 4
+[Thu Apr 10 18:26:59 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Apr 10 18:46:21 2014] [error] [client 68.181.52.11] PHP Notice:  Undefined index: CompanyName in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 4
+[Thu Apr 10 18:46:23 2014] [error] [client 68.181.52.11] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Apr 10 18:46:23 2014] [error] [client 68.181.52.11] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Apr 10 20:32:13 2014] [error] [client 68.181.52.11] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Apr 10 20:32:13 2014] [error] [client 68.181.52.11] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Apr 10 23:33:02 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:33:03 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:33:26 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:33:27 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:33:30 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:33:30 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:33:37 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:33:37 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:33:45 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:33:45 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:33:51 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:33:52 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:33:52 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:33:59 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:34:00 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:34:00 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:34:09 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:34:10 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:34:24 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:34:25 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:36:35 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:36:36 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:37:46 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:37:46 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:38:40 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Thu Apr 10 23:38:41 2014] [error] [client 68.181.195.44] PHP Warning:  SimpleXMLElement::addChild(): unterminated entity reference               C in /home/scf-04/neelamag/apache/htdocs/HomeWork8.php on line 27
+[Fri Apr 11 20:41:38 2014] [error] [client 206.117.88.14] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Fri Apr 11 21:44:33 2014] [error] [client 67.160.195.220] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Fri Apr 11 21:44:33 2014] [error] [client 67.160.195.220] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Fri Apr 11 21:52:43 2014] [error] [client 66.249.84.53] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Fri Apr 11 22:22:08 2014] [error] [client 67.160.195.220] File does not exist: /home/scf-04/neelamag/apache/htdocs/HH.html
+[Fri Apr 11 22:22:09 2014] [error] [client 67.160.195.220] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Fri Apr 11 22:22:09 2014] [error] [client 67.160.195.220] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Fri Apr 11 22:54:52 2014] [error] [client 67.160.195.220] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Fri Apr 11 23:45:42 2014] [error] [client 67.160.195.220] File does not exist: /home/scf-04/neelamag/apache/htdocs/HH.html
+[Fri Apr 11 23:53:00 2014] [error] [client 67.160.195.220] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sat Apr 12 20:29:41 2014] [error] [client 67.160.195.220] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sun Apr 13 01:22:59 2014] [error] [client 67.160.195.220] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Sun Apr 13 18:05:02 2014] [error] [client 206.117.88.6] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Mon Apr 14 17:12:11 2014] [error] [client 205.196.201.250] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Tue Apr 15 19:38:01 2014] [error] [client 172.251.189.0] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Tue Apr 29 13:24:05 2014] [error] [client 76.95.35.14] File does not exist: /home/scf-04/neelamag/apache/htdocs/examples
+[Tue Apr 29 13:24:12 2014] [error] [client 76.95.35.14] File does not exist: /home/scf-04/neelamag/apache/htdocs/examples
+[Tue Apr 29 13:24:24 2014] [error] [client 76.95.35.14] File does not exist: /home/scf-04/neelamag/apache/htdocs/examples
+[Tue Apr 29 15:40:28 2014] [error] [client 76.95.35.14] File does not exist: /home/scf-04/neelamag/apache/htdocs/examples
+[Tue Apr 29 15:40:35 2014] [error] [client 76.95.35.14] File does not exist: /home/scf-04/neelamag/apache/htdocs/examples
+[Tue Apr 29 15:41:31 2014] [error] [client 76.95.35.14] File does not exist: /home/scf-04/neelamag/apache/htdocs/examples
+[Tue Apr 29 15:41:31 2014] [error] [client 76.95.35.14] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Tue Apr 29 15:41:49 2014] [error] [client 76.95.35.14] File does not exist: /home/scf-04/neelamag/apache/htdocs/examples
+[Mon Jun 09 16:23:31 2014] [error] [client 71.9.114.48] File does not exist: /home/scf-04/neelamag/apache/htdocs/flumemaster.jsp
+[Mon Jun 09 16:23:31 2014] [error] [client 71.9.114.48] File does not exist: /home/scf-04/neelamag/apache/htdocs/browseDirectory.jsp
+[Mon Jun 09 16:23:32 2014] [error] [client 71.9.114.48] File does not exist: /home/scf-04/neelamag/apache/htdocs/tasktracker.jsp
+[Mon Jun 09 16:23:33 2014] [error] [client 71.9.114.48] Invalid method in request \x81u\x01\x03\x03\x01\\
+[Mon Jun 09 16:23:33 2014] [error] [client 71.9.114.48] Invalid method in request \x16\x03\x01\x01v\x01
+[Mon Jun 09 16:23:33 2014] [error] [client 71.9.114.48] Invalid method in request \x81u\x01\x03\x03\x01\\
+[Mon Jun 09 16:23:33 2014] [error] [client 71.9.114.48] File does not exist: /home/scf-04/neelamag/apache/htdocs/rs-status
+[Mon Jun 09 16:23:33 2014] [error] [client 71.9.114.48] Invalid method in request \x16\x03\x01\x01v\x01
+[Mon Jun 09 16:23:33 2014] [error] [client 71.9.114.48] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Mon Jun 09 16:23:34 2014] [error] [client 71.9.114.48] Invalid method in request \x81u\x01\x03\x03\x01\\
+[Mon Jun 09 16:23:34 2014] [error] [client 71.9.114.48] Invalid method in request \x16\x03\x01\x01v\x01
+[Mon Jun 09 16:23:34 2014] [error] [client 71.9.114.48] File does not exist: /home/scf-04/neelamag/apache/htdocs/robots.txt
+[Mon Jun 09 16:23:34 2014] [error] [client 71.9.114.48] Invalid method in request \x81u\x01\x03\x03\x01\\
+[Mon Jun 09 16:23:34 2014] [error] [client 71.9.114.48] Invalid method in request \x16\x03\x01\x01v\x01
+[Mon Jun 09 16:23:35 2014] [error] [client 71.9.114.48] Invalid method in request \x81u\x01\x03\x03\x01\\
+[Mon Jun 09 16:23:35 2014] [error] [client 71.9.114.48] Invalid method in request \x16\x03\x01\x01v\x01
+[Mon Jun 09 16:23:36 2014] [error] [client 71.9.114.48] Invalid method in request \x81u\x01\x03\x03\x01\\
+[Mon Jun 09 16:23:36 2014] [error] [client 71.9.114.48] Invalid method in request \x16\x03\x01\x01v\x01
+[Mon Jun 09 16:33:05 2014] [error] [client 71.9.114.48] File does not exist: /home/scf-04/neelamag/apache/htdocs/jobtracker.jsp
+[Fri Jul 11 03:06:46 2014] [error] [client 104.32.190.21] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Mon Jul 14 19:23:14 2014] [error] [client 73.189.135.118] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Mon Jul 21 18:37:09 2014] [error] [client 104.32.167.77] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Mon Aug 18 09:25:15 2014] [error] [client 50.174.217.91] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico, referer: http://cs-server.usc.edu:20513/HW6.php
+[Mon Aug 18 09:25:51 2014] [error] [client 50.174.217.91] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Tue Aug 19 19:08:38 2014] [error] [client 104.32.176.112] File does not exist: /home/scf-04/neelamag/apache/htdocs/favicon.ico
+[Thu Oct 02 06:07:20 2014] [error] [client 66.249.69.181] File does not exist: /home/scf-04/neelamag/apache/htdocs/robots.txt
+[Thu Oct 02 21:28:27 2014] [error] [client 66.249.69.149] File does not exist: /home/scf-04/neelamag/apache/htdocs/robots.txt
+[Sat Nov 29 18:57:05 2014] [error] [client 66.249.65.133] File does not exist: /home/scf-04/neelamag/apache/htdocs/robots.txt
+[Mon Dec 08 05:30:12 2014] [error] [client 66.249.65.158] File does not exist: /home/scf-04/neelamag/apache/htdocs/robots.txt

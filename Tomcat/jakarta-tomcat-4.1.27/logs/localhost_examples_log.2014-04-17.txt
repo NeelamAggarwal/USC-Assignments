@@ -1,0 +1,15 @@
+2014-04-17 00:40:23 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 568 milliseconds
+2014-04-17 00:40:28 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 1251 milliseconds
+2014-04-17 01:26:11 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 497 milliseconds
+2014-04-17 01:29:41 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 650 milliseconds
+2014-04-17 11:42:54 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 644 milliseconds
+2014-04-17 11:43:31 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 438 milliseconds
+2014-04-17 11:44:27 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 535 milliseconds
+2014-04-17 11:44:53 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 457 milliseconds
+2014-04-17 11:44:57 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 396 milliseconds
+2014-04-17 21:04:50 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 845 milliseconds
+2014-04-17 21:07:06 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 550 milliseconds
+2014-04-17 21:09:12 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 811 milliseconds
+2014-04-17 21:18:17 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 461 milliseconds
+2014-04-17 21:18:32 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 593 milliseconds
+2014-04-17 21:18:39 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 21179 milliseconds

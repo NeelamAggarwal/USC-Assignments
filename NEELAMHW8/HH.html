@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Work 8</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+			<!-- Library Files -->
+		<script src="http://yui.yahooapis.com/3.13.0/build/yui/yui-min.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.9.0/build/fonts/fonts-min.css">
+		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.9.0/build/button/assets/skins/sam/button.css">
+		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.9.0/build/menu/assets/skins/sam/menu.css">
+		<link rel="stylesheet" href="http://yui.yahooapis.com/combo?3.9.1/build/cssnormalize/cssnormalize-min.css&3.9.1/build/cssgrids-responsive/cssgrids-responsive-min.css&3.9.1/build/cssbutton/cssbutton-min.css&gallery-2013.03.27-22-06/build/gallerycss-csslist/gallerycss-csslist-min.css&gallery-2013.03.27-22-06/build/gallerycss-csstable/gallerycss-csstable-min.css&gallery-2013.03.27-22-06/build/gallerycss-cssform/gallerycss-cssform-min.css">          
+		<script src="http://yui.yahooapis.com/2.9.0/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+		<script src="http://yui.yahooapis.com/2.9.0/build/element/element-min.js"></script> 
+		<script src="http://yui.yahooapis.com/2.9.0/build/button/button-min.js"></script>
+				
+		<style>
+			body
+			{
+				background-image:url('stock.jpg');
+			}
+			hr
+			{
+				color: #F8F8FF
+			}
+		</style>		
+		<script>
+			var YAHOO = {};
+		YAHOO.Finance = {};
+		YAHOO.Finance.SymbolSuggest= {};
+
+		YUI({
+			filter: "raw"
+		}).use("datasource", "autocomplete", "highlight", function (Y) {
+			var oDS, acNode = Y.one("#input");
+
+			oDS = new Y.DataSource.Get({
+				source:"http://autoc.finance.yahoo.com/autoc?query=",
+				generateRequestCallback: function (id) {
+					YAHOO.Finance.SymbolSuggest.ssCallback =
+						YUI.Env.DataSource.callbacks[id];
+					return "&callback=YAHOO.Finance.SymbolSuggest.ssCallback";
+				}
+			});
+			oDS.plug(Y.Plugin.DataSourceJSONSchema, {
+				schema: {
+					resultListLocator: "ResultSet.Result",
+					resultFields: ["symbol", "name", "exch", "type", "exchDisp"]
+				}
+			});
+
+			acNode.plug(Y.Plugin.AutoComplete, {
+				activateFirstItem: true,
+				resultTextLocator: "symbol",
+				resultFormatter: function (query, results) {
+					return Y.Array.map(results, function (result) {
+						var asset = result.raw,
+							text =  asset.symbol +
+								", " + asset.name +
+								" (" + asset.exch + ")";
+
+						return Y.Highlight.all(text, query);
+					});
+				},
+				requestTemplate:  "{query}&region=US&lang=en-US",
+				source: oDS
+			});
+			acNode.ac.on("select", function (e) {
+        var input= e.result.raw.symbol;
+
+ 		loadXMLDoc("http://cs-server.usc.edu:20514/examples/servlet/HomeWork8?CompanyName="+ input);
+
+       
+    });
+		});
+		</script>
+		<script>
+		var Name, Symbol, LastTradePriceOnly, Change, ChangeinPercent, ChangeType, StockChart;
+			function postFB()
+			{
+			 FB.init({
+			   appId      : '1424401624484032',
+			   status     : true, // check login status
+			   xfbml      : true  // parse XFBML
+			 });
+			 FB.ui(
+			 {
+			  method: 'feed',
+				 name: Name,
+				  caption: 'Stock Information of '+Name+'('+Symbol+')',
+				  description: (
+					 'Last Trade Price:' +LastTradePriceOnly+', Change:'+ChangeType+Change+'('+ChangeinPercent+')'
+					
+				  ),
+				  link: 'http://finance.yahoo.com/q?s='+Symbol,
+				  picture: StockChart
+			 },
+			 function(response) {
+			  if (response && response.post_id) {
+			 alert('Post was published successfully.');
+			} else {
+			 alert('Post was not published.');
+			}
+			 }
+			);
+			 
+			 FB.Event.subscribe('auth.authResponseChange', function(response) {
+			   
+			   if (response.status === 'connected') {
+				 testAPI();
+			   } else if (response.status === 'not_authorized') {
+				 
+				 FB.login();
+			   } else {
+			  
+				 FB.login();
+			   }
+			 });
+
+			 };
+
+			 // Load the SDK asynchronously
+			  (function(){
+				if (document.getElementById('facebook-jssdk')) {return;}
+				var firstScriptElement = document.getElementsByTagName('script')[0];
+				var facebookJS = document.createElement('script'); 
+				facebookJS.id = 'facebook-jssdk';
+				facebookJS.src = '//connect.facebook.net/en_US/all.js';
+				firstScriptElement.parentNode.insertBefore(facebookJS, firstScriptElement);
+			  }());
+			 </script>
+		<script type="text/javascript">
+			var req;
+			var url;
+			function onSubmit()
+			{
+				var CompanyName = document.getElementById("input").value;
+				if(CompanyName == "" || CompanyName == null)
+				{
+					alert("Please enter a company name/symbol");
+					document.getElementById("NS").innerHTML = " ";
+					document.getElementById("tabView").innerHTML = " ";
+					document.getElementById("input").focus();
+				}
+				else
+				{
+					alert("Neelam");
+					url = "http://cs-server.usc.edu:20514/examples/servlet/HomeWork8?CompanyName="+ CompanyName;
+					loadXMLDoc(url);
+				}
+				
+				return false;	
+				
+			}
+			function loadXMLDoc(url) 
+			{
+				req = false;
+				if (window.XMLHttpRequest)
+				{
+					try 
+					{
+						req = new XMLHttpRequest();
+					} 
+					catch (e) 
+					{
+						req = false;
+					}					
+				} 
+				else if(window.ActiveXObject) 
+				{
+					try 
+					{
+						req = new ActiveXObject("Msxml2.XMLHTTP");
+					} 
+					catch (e) 
+					{
+						try 
+						{
+							req = new ActiveXObject("Microsoft.XMLHTTP");
+						} 
+						catch (e) 
+						{
+							req = false;
+						}
+					}
+				}
+				if (req) 
+				{
+					//alert("inside req");
+					req.onreadystatechange = myCallback;
+					req.open("GET", url, true);
+					req.setRequestHeader("Connection", "Close");
+					req.setRequestHeader("Origin", "http://cs-server.usc.edu:20514");
+					req.setRequestHeader("Method", "GET" + url + "HTTP/1.1");
+					req.send("");	
+				}
+			
+			}
+			function myCallback()
+			{
+				//var counter = 0;
+				//alert("inside call back");
+				//alert("readystate" + req.readyState);
+				<!-- alert("status" + req.status); -->
+				if(req.readyState == 4) 
+				{
+					//alert("readystate 4 :" + req.readyState);
+					
+					if(req.status == 200) 
+					{	
+						document.getElementById("tabView").innerHTML = " ";
+						
+						var data = "";
+						data = req.responseText;		
+						var Jason_data = "" ;
+						//data = "(" + data + ") ";
+						Jason_data = eval('(' + data + ')');  
+						//Jason_data = eval(data);  
+						//alert(Jason_data.result.Symbol);						
+						if(Jason_data.code == 602) 
+						{
+							alert("No data found !!!" + Jason_data.code);
+										    	
+						} 
+						if(data == "")
+						{
+							alert("No data found !!!");
+						}
+						if(Jason_data.result.Quote.LastTradePriceOnly == "0" || Jason_data.result.Quote.LastTradePriceOnly == "0.00")
+						{	
+							var NoData = "<H1 align='center' style='font-weight:bold; font-size:150%; color:white'> Stock Information Not Available </H1>";
+							document.getElementById("NS").innerHTML = NoData;
+							return;
+						}
+						else
+						{
+							//document.getElementById("myDiv").innerHTML=data;
+							
+							//document.getElementByID("tabView").innerHTML = "";
+							//alert(Jason_data.result.Symbol);
+							 Name = Jason_data.result.Name;
+							 //alert(Name);
+							 Symbol = Jason_data.result.Symbol;
+							//var Quote = Jason_data.result.Quote;
+							 ChangeType = Jason_data.result.Quote.ChangeType;
+							 Change = Jason_data.result.Quote.Change;
+							ChangeinPercent = Jason_data.result.Quote.ChangeinPercent;
+							 LastTradePriceOnly = Jason_data.result.Quote.LastTradePriceOnly;
+							var Open = Jason_data.result.Quote.Open;
+							var YearLow = Jason_data.result.Quote.YearLow;
+							var YearHigh = Jason_data.result.Quote.YearHigh;
+							var Volume = Jason_data.result.Quote.Volume;
+							var OneYearTargetPrice = Jason_data.result.Quote.OneYearTargetPrice;
+							var Bid = Jason_data.result.Quote.Bid;
+							var DaysLow = Jason_data.result.Quote.DaysLow;
+							var DaysHigh = Jason_data.result.Quote.DaysHigh;
+							var Ask = Jason_data.result.Quote.Ask;
+							var AverageDailyVolume = Jason_data.result.Quote.AverageDailyVolume;
+							var PreviousClose = Jason_data.result.Quote.PreviousClose;
+							var MarketCapitalization = Jason_data.result.Quote.MarketCapitalization;
+							var News = "";
+							News = "<ul>";
+							var newslen= Jason_data.result.News.item.length;
+							
+							if (typeof(newslen) == 'undefined')
+								{
+									
+									News = "<H1>Financial Company News is not available!</H1>"
+									//return;
+								}
+							else
+							{
+								for (var i =0; i< newslen ; i++) 
+								{
+									//alert(Jason_data.result.News.item[i].title);
+									
+									
+									
+										News += '<li><a target="_blank" href=' +  Jason_data.result.News.item[i].link +'>'+ Jason_data.result.News.item[i].title +'</a></li>';
+									
+								}
+							}
+							News+= "</ul>";
+							
+							//alert(News);
+							var FirstBlock = "";
+							var FirstBlock = "<table style='width:900px'> <tr> <td>"
+							FirstBlock += "<span style= 'margin-top:60px; font-weight:bold; font-size:150%; color:white'>" +  Name + "("+ Symbol + ")" + "</span>";
+							FirstBlock += "<br/>" + "<span style='font-size:30pt; color:white'>" + LastTradePriceOnly + ' ' +"</span>"; 
+							//alert(ChangeType);
+							if(ChangeType == '-')
+							{
+								FirstBlock +='<img src="down_r.gif" /> ';
+								FirstBlock += "<span style='font-size:15pt; color:red' >" + Change + " (" + ChangeinPercent +")" + "</span>";
+							}
+							else if(ChangeType == '+')
+							{
+								if(Change == 0.0)
+								{
+									FirstBlock += "<span style='font-size:15pt; color:green' >" + Change + " (" + ChangeinPercent +")" + "</span>";
+								}
+								else
+								{
+									FirstBlock +='<img src="up_g.gif" />';
+									FirstBlock += "<span style='font-size:15pt; color:green' >" + Change + " (" + ChangeinPercent +")" + "</span>";
+								}
+							}
+							
+							FirstBlock += '<br/> <input type="image" src="fb.jpg" style="padding:0" width="75px" height="25px" id="fbbutton" class="yui3-button" onclick="postFB()" />';
+							FirstBlock += "</td> <td align = 'right'>";
+							StockChart = Jason_data.result.StockChartImageURL;
+							//alert(StockChart);
+							FirstBlock += '<img src = " '+ StockChart+ ' "/> ' ;
+							FirstBlock += "</td> </tr> </table>";
+							//FirstBlock += 
+							FirstBlock += '<br/><hr/>';
+							//var fbbutton1 ="<input type=\"button\" id=\"fbbutton\" value=\"share\" onclick=\"postFB()\" />";	
+ 							//document.getElementById("fb-root").innerHTML = fbbutton1;
+							document.getElementById("NS").innerHTML = FirstBlock;
+							//document.getElementById("L").innerHTML = LastTradePriceOnly ;
+							//if(ChangeType == '-')
+								//document.getElementById("CR").innerHTML = Change + " (" + ChangeinPercent +")";
+							//else if(ChangeType == '+')
+								//document.getElementById("CG").innerHTML = Change + " (" + ChangeinPercent +")";
+							
+							var QuoteInfo = "";
+							QuoteInfo = "<table cellpadding = '5px' style='width:890px'>"+
+											"<tr>"+ 
+												"<td>"+ "Prev Close:" + "</td>" +
+												"<td align = 'right'>"+ PreviousClose +"</td>" +
+												"<td>"+ "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Day's Range:" + "</td>" +
+												"<td align = 'right'>"+ DaysLow + " - " + DaysHigh +"</td>" +
+											"</tr>"+
+											"<tr>"+ 
+												"<td>"+ "Open:" + "</td>" +
+												"<td align = 'right'>"+ Open +"</td>" +
+												"<td>"+ "&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;52wk Range:" + "</td>" +
+												"<td align = 'right'>"+ YearLow + " - " + YearHigh +"</td>" +
+											"</tr>"+
+											"<tr>"+ 
+												"<td>"+ "Bid:" + "</td>" +
+												"<td align = 'right'>"+ Bid +"</td>" +
+												"<td>"+ "&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Volume:" + "</td>" +
+												"<td align = 'right'>"+ Volume + "</td>" +
+											"</tr>"+
+											"<tr>"+ 
+												"<td>"+ "Ask:" + "</td>" +
+												"<td align = 'right'>"+ Ask +"</td>" +
+												"<td>"+ "&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Avg Vol(3m):" + "</td>" +
+												"<td align = 'right'>"+ AverageDailyVolume + "</td>" +
+											"</tr>"+
+											"<tr>"+ 
+												"<td>"+ "1y Target Est:" + "</td>" +
+												"<td align = 'right'>"+ OneYearTargetPrice +"</td>" +
+												"<td>"+ "&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Market Cap:" + "</td>" +
+												"<td align = 'right'>"+ MarketCapitalization +"</td>" +
+											"</tr>"+
+										"</table>";
+								
+														
+							YUI().use('tabview', function(Y) 
+							{
+								var tabview = new Y.TabView(
+								{
+									children: [
+									{
+										label: 'Quote Information',
+										content: QuoteInfo
+									}, 
+									{
+										label: 'News Headlines',
+										content: News
+										
+									}]
+								});
+
+									tabview.render('#tabView');
+									tabview.selectChild(0);
+							});
+							//document.getElementById("tabView").innerHTML = " ";
+						}
+					} 
+					else 
+					{
+						alert("There was a problem with the request " + req.status);
+					}
+				}
+			} 
+		
+			
+
+		</script>
+	</head>
+	<body  class= "yui3-skin-sam" style="margin-top: 20px; margin-left: 200px; margin-right: 250px">
+		
+			<form name="form1" onsubmit="return onSubmit()" method="GET" align ="center">  
+				<div style= "margin-left: 200px;">
+					<span style="color:white"> Company: </span>
+					<input ID="input" name="input" size= "45" placeholder = "Enter Company Symbol">
+					<button TYPE="submit" class="yui3-button"> Search </button>
+				</div>
+			</form>
+			<div id="NS" style="margin-top:60px;"></div>
+			<br/>
+			<div id="tabView"></div>	
+		
+			<div id = "fb-root"> </div>
+		
+		
+			
+			
+		   
+		
+
+		<NOSCRIPT>
+	</body>
+</html>		

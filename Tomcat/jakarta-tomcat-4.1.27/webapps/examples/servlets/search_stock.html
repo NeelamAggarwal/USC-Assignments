@@ -1,0 +1,158 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Search Stock</title>
+			<script src="http://yui.yahooapis.com/3.15.0/build/yui/yui-min.js"></script>
+			<script type="text/javascript">
+			
+				var txt;
+				function verify(nod)
+				{
+					return !(/[^\t\n\r ]/.test(nod));
+				}
+				function validate(a)
+				{
+					var x = a.company.value;
+					x.trim();
+					if (x == null || x == "")
+					{
+						alert("Please enter a company symbol");
+						document.getElementById("stock").focus();
+						return;
+					}
+					else 
+					{
+						if(verify(x))
+						{
+							alert("Provide a proper input file, not just spaces!!!");
+							document.getElementById("stock").focus();
+							return false;
+						}
+						else
+						{
+							check();
+						}
+					}	
+				}
+				function check()
+				{
+					alert("check enter");
+					//var url = "http://cs-server.usc.edu:20514/examples/servlet/HomeWork8";
+					var url = "http://cs-server.usc.edu:26604/examples/servlet/assignment8?company=GOOG";
+					getXMLHttpRequest(url);
+					return false;
+				}
+				var req;
+				function getXMLHttpRequest(url)
+				{
+					alert("getXMLHttpRequest entered");
+					req = false;
+					if(window.XMLHttpRequest)
+					{
+						try
+						{
+							req = new XMLHttpRequest();
+						}
+						catch(e)
+						{
+							req = false;
+						}
+					}
+					else if(window.ActiveXObject)
+					{
+						try
+						{
+							req = new ActiveXObject("Msxml2.XMLHTTP");
+						}
+						catch(p)
+						{
+							try
+							{
+								req = new ActiveXObject("Microsoft.XMLHTTP");
+							}
+							catch(e)
+							{
+								req = false;
+							}
+						}
+					}
+					if(req)
+					{
+						alert("Request ");
+						alert(url);
+						req.onreadystatechange = changeRequest;
+						req.open("GET",url,true);
+						req.setRequestHeader("Conn","Close");
+						req.setRequestHeader("Origin","http://cs-server.usc.edu:26604");
+						req.setRequestHeader("Method","GET" + url + "HTTP/1.1");
+						req.send("");
+					}
+				}
+				function changeRequest()
+				{
+					alert("request.readyState ="+req.readyState+"request.status ="+req.status);
+					if(req.readyState == 4)
+					{
+						alert("req.Status="+req.status);
+						if(req.status == 200)
+						{
+							document.getElementById('demoo').innerHTML = "";
+							document.getElementById('data_display').innerHTML = "";
+							var content = req.responseText;
+
+								alert("Reached...printing json");
+								alert("before print val attempt");
+								var print_val = JSON.parse(content);
+								alert("print_val");
+								var name_val = print_val.result.Name;
+								alert(name_val);
+								var symbol_val = print_val.result.Symbol;
+								alert(symbol_val);
+							
+						}
+						else
+						{
+							alert("Problem with request "+req.status);
+							return false;
+						}
+					}
+						
+						return true;
+					}
+			</script>
+			<script type = "text/css">
+				#demoo 
+				{
+					top:50%;
+					left:40%;
+					position:absolute;
+				}
+			</script>
+		<style>
+			div {font-size:130%;font-weight:bolder;line-height:100%;};
+			h2 {text-decoration:underline;border-bottom: 2px;};
+			hr {size:1px;color: #000000;}
+		</style>
+		<title> 
+			Market Stock Search
+		</title>
+	</head>	
+	<body>
+		<center>
+			<h2>Market Stock Search</h2>
+			<fieldset style = "border:2pt solid black;width:450px;">
+				<form name="FormValidate" action="" method="get">
+						Company Symbol
+						<input type="text" name="company" id ="stock" style="width: 200px;"/>
+						<input type="submit" name= "submit" value="Search" onClick="return check()"/>
+						<br>
+						Example: <i>GOOG, MSFT, YHOO, FB, AAPL, ..etc</i>
+				</form>
+			</fieldset>
+			<div id="data_display">
+			</div>
+			<div id="demoo" class="yui3-skin-sam">
+			</div>
+		</center>
+	</body>	
+</html>

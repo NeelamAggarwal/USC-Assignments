@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<movie>
+	<movie_list>
+		<Movie_ID>M1</Movie_ID>
+		<Title>After.Life</Title>
+		<Director>Agnieszka Wojtowicz-Vosloo</Director>
+		<Writer>Agnieszka Wojtowicz-Vosloo</Writer>
+		<Genre>Drama, Thriller</Genre>
+		<Release_Date>2009-10-02</Release_Date>
+		<Runtime>80</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M2</Movie_ID>
+		<Title>Americanese</Title>
+		<Director>Eric Byler</Director>
+		<Writer>Tim Story</Writer>
+		<Genre>Romance, Drama</Genre>
+		<Release_Date>2009-08-05</Release_Date>
+		<Runtime>95</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M3</Movie_ID>
+		<Title>August</Title>
+		<Director>Austin Chick</Director>
+		<Writer>Scott Thomas</Writer>
+		<Genre>Drama</Genre>
+		<Release_Date>2009-02-05</Release_Date>
+		<Runtime>75</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M4</Movie_ID>
+		<Title>Baby Mama</Title>
+		<Director>Michael McCullers</Director>
+		<Writer>Adrienne Shelly</Writer>
+		<Genre>Comedy</Genre>
+		<Release_Date>2009-05-27</Release_Date>
+		<Runtime>80</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M5</Movie_ID>
+		<Title>300</Title>
+		<Director>Michael McCullers</Director>
+		<Writer>Jake Kasdan</Writer>
+		<Genre>Epic, Action</Genre>
+		<Release_Date>2009-03-15</Release_Date>
+		<Runtime>90</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M6</Movie_ID>
+		<Title>Aftermath</Title>
+		<Director>Thomas Farone</Director>
+		<Writer>Jay Russell</Writer>
+		<Genre>Crime, Drama</Genre>
+		<Release_Date>2009-07-23</Release_Date>
+		<Runtime>100</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M7</Movie_ID>
+		<Title>Barricade</Title>
+		<Director>Tyler Perry</Director>
+		<Writer>M. dot Strange</Writer>
+		<Genre>Horror</Genre>
+		<Release_Date>2009-12-07</Release_Date>
+		<Runtime>85</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M8</Movie_ID>
+		<Title>Brooklyn Rules</Title>
+		<Director>Michael McCullers</Director>
+		<Writer>Mars Callahan</Writer>
+		<Genre>Drama</Genre>
+		<Release_Date>2009-05-18</Release_Date>
+		<Runtime>70</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M9</Movie_ID>
+		<Title>Captivity</Title>
+		<Director>Agnieszka Wojtowicz-Vosloo</Director>
+		<Writer>Stewart Hendler</Writer>
+		<Genre>Thriller</Genre>
+		<Release_Date>2009-10-18</Release_Date>
+		<Runtime>90</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M10</Movie_ID>
+		<Title>Daddy's Little Girls</Title>
+		<Director>Tyler Perry</Director>
+		<Writer>Walter Becker</Writer>
+		<Genre>Romantic comedy</Genre>
+		<Release_Date>2009-01-09</Release_Date>
+		<Runtime>105</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M11</Movie_ID>
+		<Title>Day Zero</Title>
+		<Director>Thomas Farone</Director>
+		<Writer>Joe Lynch</Writer>
+		<Genre>Drama</Genre>
+		<Release_Date>2009-10-10</Release_Date>
+		<Runtime>120</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M12</Movie_ID>
+		<Title>Enchanted</Title>
+		<Director>Tyler Perry</Director>
+		<Writer>Gregory Jacobs</Writer>
+		<Genre>Comedy, Romance, Musical</Genre>
+		<Release_Date>2009-12-25</Release_Date>
+		<Runtime>85</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M13</Movie_ID>
+		<Title>Flight of Fury</Title>
+		<Director>Michael Keusch</Director>
+		<Writer>Mike White</Writer>
+		<Genre>Action</Genre>
+		<Release_Date>2009-06-22</Release_Date>
+		<Runtime>95</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M14</Movie_ID>
+		<Title>Ghost Rider</Title>
+		<Director>Agnieszka Wojtowicz-Vosloo</Director>
+		<Writer>David Kaplan</Writer>
+		<Genre>Superhero film</Genre>
+		<Release_Date>2009-04-20</Release_Date>
+		<Runtime>85</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M15</Movie_ID>
+		<Title>Harry Potter and the Order of the Phoenix</Title>
+		<Director>David Silverman</Director>
+		<Writer>John Dahl</Writer>
+		<Genre>Fantasy</Genre>
+		<Release_Date>2009-09-11</Release_Date>
+		<Runtime>125</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M16</Movie_ID>
+		<Title>The Hoax</Title>
+		<Director>Tyler Perry</Director>
+		<Writer>Francis Ford Coppola</Writer>
+		<Genre>Comedy drama</Genre>
+		<Release_Date>2009-09-25</Release_Date>
+		<Runtime>90</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M17</Movie_ID>
+		<Title>I Know Who Killed Me</Title>
+		<Director>David Silverman</Director>
+		<Writer>Darren Lynn Bousman</Writer>
+		<Genre>Thriller</Genre>
+		<Release_Date>2009-11-02</Release_Date>
+		<Runtime>95</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M18</Movie_ID>
+		<Title>Joshua</Title>
+		<Director>Agnieszka Wojtowicz-Vosloo</Director>
+		<Writer>Chris Miller</Writer>
+		<Genre>Horror, Thriller</Genre>
+		<Release_Date>2009-07-11</Release_Date>
+		<Runtime>80</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M19</Movie_ID>
+		<Title>License to Wed</Title>
+		<Director>David Silverman</Director>
+		<Writer>Tobin Bell</Writer>
+		<Genre>Romantic comedy</Genre>
+		<Release_Date>2009-06-30</Release_Date>
+		<Runtime>85</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M20</Movie_ID>
+		<Title>Loveless in Los Angeles</Title>
+		<Director>Austin Chick</Director>
+		<Writer>Yeardley Smith</Writer>
+		<Genre>Comedy</Genre>
+		<Release_Date>2009-08-31</Release_Date>
+		<Runtime>90</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M21</Movie_ID>
+		<Title>The Namesake</Title>
+		<Director>Agnieszka Wojtowicz-Vosloo</Director>
+		<Writer>Taye Diggs</Writer>
+		<Genre>Drama</Genre>
+		<Release_Date>2009-08-11</Release_Date>
+		<Runtime>120</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M22</Movie_ID>
+		<Title>Ocean's Thirteen</Title>
+		<Director>Eric Byler</Director>
+		<Writer>Jeremy Piven</Writer>
+		<Genre>Crime, Comedy</Genre>
+		<Release_Date>2009-11-30</Release_Date>
+		<Runtime>90</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M23</Movie_ID>
+		<Title>The Simpsons Movie</Title>
+		<Director>David Silverman</Director>
+		<Writer>Columbus Short</Writer>
+		<Genre>Animated Film</Genre>
+		<Release_Date>2009-03-15</Release_Date>
+		<Runtime>70</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M24</Movie_ID>
+		<Title>Transformers</Title>
+		<Director>Eric Byler</Director>
+		<Writer>Paul Hoen</Writer>
+		<Genre>Science fiction, Action</Genre>
+		<Release_Date>2009-09-09</Release_Date>
+		<Runtime>110</Runtime>
+	</movie_list>
+	<movie_list>
+		<Movie_ID>M25</Movie_ID>
+		<Title>Zodiac</Title>
+		<Director>Austin Chick</Director>
+		<Writer>Mikael Håfström</Writer>
+		<Genre>Mystery</Genre>
+		<Release_Date>2009-04-28</Release_Date>
+		<Runtime>85</Runtime>
+	</movie_list>
+</movie>

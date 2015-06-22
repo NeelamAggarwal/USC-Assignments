@@ -1,0 +1,181 @@
+
+<html>
+<head>
+    <script type="text/javascript"> 
+        var xmlDoc; 
+		var hWin;
+		var html_text;
+        function loadXML() 
+        { 
+            var url = document.getElementById("text1").value;
+            if(url.length < 1)
+			{
+				alert("Enter input name");
+				return false;
+			}
+            if (window.XMLHttpRequest) 
+            {
+                xmlhttp=new XMLHttpRequest(); 
+            } 
+            else 
+            {
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP"); 
+            } 
+            xmlhttp.open("GET",url,false); //open, send, responseXML are 
+            xmlhttp.send(); //properties of XMLHTTPRequest 
+            xmlDoc=xmlhttp.responseXML; 
+			if(xmlDoc == null)
+			{          
+				alert("XML file does not exist: XML Dont Exist :Enter correct name");
+				return false;
+			}
+			else if (xmlDoc.documentElement.nodeName=="parsererror") 
+			{
+                alert("Error loading XML file: INVALID FILE: parserError: ");  
+				return false;
+			}
+			else if((xmlDoc.getElementsByTagName("PLANT")).length < 1)
+			{
+				alert("No Plant tag element");
+				return false;
+			}
+			return xmlDoc;
+		}
+		function checkXML()
+		{
+			
+			xmlDoc = loadXML();
+            if (window.XMLHttpRequest) 
+            {  
+			 xmlDoc.onload=generateHTML(xmlDoc); 
+             hWin = window.open("", "Assignment4", "height=800,width=600, scrollbars=yes");
+             hWin.document.write(html_text); 
+            }
+			else if(window.ActiveXObject)
+			{
+				if (xmlDoc.parseError.errorCode != 0)
+				{ 
+					var myErr = xmlDoc.parseError; 
+					generateError(xmlDoc); 
+					hWin = window.open("", "Error", "height=300,width=340, scrollbars=yes"); 
+					hWin.document.write(html_text);
+					
+				} 
+				else 
+				{
+					if(generateHTML(xmlDoc)) 
+					{
+						hWin = window.open("", "Assignment4", "height=800,width=600, scrollbars=yes"); 
+						hWin.document.write(html_text);
+						
+					}
+				}
+			}
+			hWin.document.close();
+        }
+		function generateHTML(xmlDoc) 
+		{
+			ELEMENT_NODE = 1;
+			root=xmlDoc.DocumentElement; 
+			
+			planes=xmlDoc.getElementsByTagName("PLANT"); 
+			
+			html_text="<html><head><title>XML Parse Result</title></head><bo"+"dy>"; 
+			html_text+="<table border='2'>";
+			//planeNodeList=planes.item(0).childNodes; 
+			html_text+="<tbo"+"dy>"; 
+			html_text+="<tr>";
+			
+			//for(i=0;i<planes.length;i++) 
+			{ 
+				//if(planeNodeList.item(i).nodeType==ELEMENT_NODE)
+				{
+					//header=planeNodeList.item(i).nodeName; 
+					html_text+="<th>COMMON</th>";
+					html_text+="<th>"+"BOTANICAL"+"</th>";
+					html_text+="<th>"+"ZONE"+"</th>";
+					html_text+="<th>"+"LIGHT"+"</th>";
+					html_text+="<th>"+"PRICE"+"</th>";
+					html_text+="<th>"+"IMAGE"+"</th>";
+				}
+			}
+			html_text+="</tr>"; 
+			for(i=0;i<planes.length;i++) //do for all planes 
+			{
+				//planeNodeList=planes.item(i).childNodes; //get properties of a plane 
+				html_text+="<tr>"; //start a new row of the output table 
+				//for(j=0;j<planeNodeList.length;j++) 
+				{
+					//if(planeNodeList.item(i).nodeType==ELEMENT_NODE) 
+					{ 
+						if (planes[i].getElementsByTagName("COMMON")[0].firstChild != null)
+						{
+							html_text+= "<td>"+planes[i].getElementsByTagName("COMMON")[0].childNodes[0].nodeValue+"</td>";
+						}
+						else
+						{
+							html_text+="<td></td>";
+						}
+						if (planes[i].getElementsByTagName("BOTANICAL")[0].firstChild != null)
+						{
+							html_text+= "<td>"+planes[i].getElementsByTagName("BOTANICAL")[0].childNodes[0].nodeValue+"</td>";
+						}
+						else
+						{
+							html_text+="<td></td>";
+						}
+						if (planes[i].getElementsByTagName("ZONE")[0].firstChild != null)
+						{
+							html_text+= "<td>"+planes[i].getElementsByTagName("ZONE")[0].childNodes[0].nodeValue+"</td>";
+						}
+						else
+						{
+							html_text+="<td></td>";
+						}
+						if (planes[i].getElementsByTagName("LIGHT")[0].firstChild != null)
+						{
+							html_text+= "<td>"+planes[i].getElementsByTagName("LIGHT")[0].childNodes[0].nodeValue+"</td>";
+						}
+						else
+						{
+							html_text+="<td></td>";
+						}
+						if (planes[i].getElementsByTagName("PRICE")[0].firstChild != null)
+						{
+							html_text+= "<td>"+planes[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue+"</td>";
+						}
+						else
+						{
+							html_text+="<td></td>";
+						}
+						if(planes[i].getElementsByTagName("IMAGE")[0].firstChild != null) 
+						{
+							html_text+="<td><img src='Image/"+planes[i].getElementsByTagName("IMAGE")[0].childNodes[0].nodeValue+"' width='"+100+"' height='"+100+"'></td>"; 
+						}
+						else
+						{
+							html_text+="<td></td>";
+						}
+					}
+				}
+				html_text+="</tr>"; 
+			}
+			html_text+="</tbo"+"dy> </table>";
+			html_text+="</bo"+"dy> </html>";
+			 
+
+		}
+		
+    </script> 
+</head>
+<body>
+    <h3 align="center"> <br/> <br/>  Enter URL for Plant Catalog XML file 
+		<br/> <br/> 
+        <input type="text" id="text1" align= "center" /> 
+        <br/> <br/> 
+        <input type="button" value="Submit Query" id="button1" onclick="checkXML()" align= "center" /> 
+		</h3>
+		 <p> Eg: plants.xml </p>
+<NOSCRIPT>
+</body>
+</html>

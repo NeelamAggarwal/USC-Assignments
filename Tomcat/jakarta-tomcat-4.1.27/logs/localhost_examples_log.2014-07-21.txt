@@ -1,0 +1,14 @@
+2014-07-21 18:41:25 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 720 milliseconds
+2014-07-21 18:41:28 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 594 milliseconds
+2014-07-21 18:41:32 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 512 milliseconds
+2014-07-21 18:41:33 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 694 milliseconds
+2014-07-21 18:41:34 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 420 milliseconds
+2014-07-21 18:41:35 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 496 milliseconds
+2014-07-21 18:41:35 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 384 milliseconds
+2014-07-21 18:41:43 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 674 milliseconds
+2014-07-21 18:41:44 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 441 milliseconds
+2014-07-21 18:41:45 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 550 milliseconds
+2014-07-21 18:41:46 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 439 milliseconds
+2014-07-21 18:41:46 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 455 milliseconds
+2014-07-21 18:42:51 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 521 milliseconds
+2014-07-21 18:43:49 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 1485 milliseconds

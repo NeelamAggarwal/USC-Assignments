@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<result>
+  <Name>Google Inc.</Name>
+  <Symbol>GOOG</Symbol>
+  <Quote>
+    <ChangeType>-</ChangeType>
+    <Change>26.60</Change>
+    <ChangeInPercent>4.67%</ChangeInPercent>
+    <LastTradePriceOnly>543.14</LastTradePriceOnly>
+    <PreviousClose>569.74</PreviousClose>
+    <DaysLow>543.00</DaysLow>
+    <DaysHigh>577.77</DaysHigh>
+    <Open>574.65</Open>
+    <YearLow>543.00</YearLow>
+    <YearHigh>604.83</YearHigh>
+    <Bid>544.00</Bid>
+    <Volume>6,377,658.00</Volume>
+    <Ask>545.33</Ask>
+    <AverageDailyVolume>1,665,240.00</AverageDailyVolume>
+    <OneYearTargetPrice>0.00</OneYearTargetPrice>
+    <MarketCapitalization>365.0B</MarketCapitalization>
+  </Quote>
+  <News>
+    <Item>
+      <Title>Google's</Title>
+      <Link>http://us.rd.yahoo.com/finance/news/rss/story/*http://finance.yahoo.com/news/googles-222900120.html</Link>
+    </Item>
+    <Item>
+      <Title>Google seen eyeing wireless</Title>
+      <Link>http://us.rd.yahoo.com/finance/news/rss/story/*http://finance.yahoo.com/news/google-seen-eyeing-wireless-222900402.html</Link>
+    </Item>
+    <Item>
+      <Title>Wearable device market 'overhyped,' researcher claims</Title>
+      <Link>http://us.rd.yahoo.com/finance/external/investors/rss/SIG=13jkvkio5/*http://news.investors.com/040414-696007-new-research-shows-modest-opportunity-for-smart-watches-fitness-bands.htm?ven=yahoocp&amp;src=aurlled&amp;ven=yahoo</Link>
+    </Item>
+    <Item>
+      <Title>[video] The Top Ten Stocks for April 4</Title>
+      <Link>http://us.rd.yahoo.com/finance/external/video/bloomberg/rss/SIG=12rna13lc/*http://www.bloomberg.com/video/the-top-ten-stocks-for-april-4-_MvHcpvURsCLlQ3_3LfDew.html?cmpid=yhoo</Link>
+    </Item>
+    <Item>
+      <Title>Business Highlights</Title>
+      <Link>http://us.rd.yahoo.com/finance/news/rss/story/*http://sg.finance.yahoo.com/news/business-highlights-224453369--finance.html</Link>
+    </Item>
+    <Item>
+      <Title>[video] Weekly Earnings Scorecard For S&amp;P 500 Companies</Title>
+      <Link>http://us.rd.yahoo.com/finance/external/video/tsmfe/rss/SIG=136umr14s/*http://www.thestreet.com/_yahoo/story/12627324/1/weekly-earnings-scorecard-for-sp-500-companies.html?cm_ven=YAHOOV&amp;cm_cat=FREE&amp;cm_ite=NA</Link>
+    </Item>
+    <Item>
+      <Title>Google Play's 'People' section highlights apps your friends like</Title>
+      <Link>http://us.rd.yahoo.com/finance/external/xengadget/rss/SIG=11o3dahic/*http://www.engadget.com/2014/04/04/google-play-people/?ncid=rss_truncated</Link>
+    </Item>
+    <Item>
+      <Title>[video] What Happens When Tech Geeks and Billionaires Merge</Title>
+      <Link>http://us.rd.yahoo.com/finance/external/video/bloomberg/rss/SIG=13ghav9l1/*http://www.bloomberg.com/video/what-happens-when-tech-geeks-and-billionaires-merge-TRL0nb_mQk~6Xdxi6Pp8Mg.html?cmpid=yhoo</Link>
+    </Item>
+    <Item>
+      <Title>Google Up on Stock Split Completion</Title>
+      <Link>http://us.rd.yahoo.com/finance/news/rss/story/*http://finance.yahoo.com/news/google-stock-split-completion-210755349.html</Link>
+    </Item>
+    <Item>
+      <Title>Mozilla's CEO Headache Comes Amid A Challenging Shift To Mobile</Title>
+      <Link>http://us.rd.yahoo.com/finance/external/forbes/rss/SIG=13lv8uijh/*http://www.forbes.com/sites/parmyolson/2014/04/04/mozillas-ceo-headache-comes-amidst-a-challenging-shift-to-mobile/?partner=yahootix</Link>
+    </Item>
+    <Item>
+      <Title>[video] Market Watch: Momentum Stocks Lead Tech Selloff</Title>
+      <Link>http://us.rd.yahoo.com/finance/external/video/bloomberg/rss/SIG=13balvgps/*http://www.bloomberg.com/video/market-watch-momentum-stocks-lead-tech-selloff-XaIad~2iRgK7ludbD0tLOw.html?cmpid=yhoo</Link>
+    </Item>
+    <Item>
+      <Title>[video] How to play the speculative tech sector</Title>
+      <Link>http://us.rd.yahoo.com/finance/external/video/cnbc/rss/SIG=110mfa5qs/*http://video.cnbc.com/gallery/?video=3000264566&amp;__source=yahoo%7cheadline%7cquote%7cvideo%7c&amp;par=yahoo</Link>
+    </Item>
+    <Item>
+      <Title>Google's Slimming Search Audience: Social Media Vs. Personalization</Title>
+      <Link>http://us.rd.yahoo.com/finance/external/pssa/rss/SIG=13agdv26o/*http://seekingalpha.com/article/2126773-googles-slimming-search-audience-social-media-vs-personalization?source=yahoo</Link>
+    </Item>
+    <Item>
+      <Title>Apple Accuses Samsung of Misleading Jury</Title>
+      <Link>http://us.rd.yahoo.com/finance/news/rss/story/*http://finance.yahoo.com/news/apple-accuses-samsung-misleading-jury-194019280.html</Link>
+    </Item>
+    <Item>
+      <Title>Google's (GOOG) Nest Labs Halts Defective Alarm Sales</Title>
+      <Link>http://us.rd.yahoo.com/finance/external/tsmfe/rss/SIG=13349m3rc/*http://www.thestreet.com/story/12627172/1/googles-goog-nest-labs-halts-defective-alarm-sales.html?puc=yahoo&amp;cm_ven=YAHOO</Link>
+    </Item>
+    <Item>
+      <Title>Millions by millions, CEO pay goes up</Title>
+      <Link>http://us.rd.yahoo.com/finance/external/xusatoday/rss/SIG=12f2c75gd/*http://www.usatoday.com/story/money/business/2014/04/03/2013-ceo-pay/7200481/</Link>
+    </Item>
+    <Item>
+      <Title>GrubHub Hit the Ground Running, But Can It Keep Up the Pace?</Title>
+      <Link>http://us.rd.yahoo.com/finance/external/xwscheats/rss/SIG=137brjeqv/*http://wallstcheatsheet.com/business/grubhub-hit-the-ground-running-but-can-it-keep-up-the-pace.html/?ref=YF</Link>
+    </Item>
+    <Item>
+      <Title>Safely tour Marseille's back streets after dark with Google Night Walk</Title>
+      <Link>http://us.rd.yahoo.com/finance/external/xengadget/rss/SIG=1218qssqo/*http://www.engadget.com/2014/04/04/marseille-google-night-walk/?ncid=rss_truncated</Link>
+    </Item>
+    <Item>
+      <Title>Google Considering Its Own Mobile Network, Says Report</Title>
+      <Link>http://us.rd.yahoo.com/finance/external/minyanville/rss/SIG=13krjt7rk/*http://www.minyanville.com/sectors/technology/articles/Google-Considering-Its-Own-Mobile-Network/4/4/2014/id/54479?camp=syndication&amp;medium=portals&amp;from=yahoo</Link>
+    </Item>
+    <Item>
+      <Title>Google's Trying to Trademark the Word 'Glass'&#x2014;and It's in Good Company</Title>
+      <Link>http://us.rd.yahoo.com/finance/news/rss/story/*http://finance.yahoo.com/news/googles-trying-trademark-word-glass-183044600.html</Link>
+    </Item>
+  </News>
+  <StockChartImageURL>http://chart.finance.yahoo.com/t?s=GOOG &amp;amp;lang=en-US&amp;amp;amp;width=300&amp;amp;height=180 </StockChartImageURL>
+</result>
+
+

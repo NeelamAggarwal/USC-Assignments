@@ -1,0 +1,73 @@
+
+
+"SELECT t.X,t.Y FROM building Tb, TABLE(SDO_UTIL.GETVERTICES(Tb.shape)) t " +
+"SELECT (SDO_UTIL.GETNUMVERTICES(shape)) from building \n " +
+
+"SELECT t.X,t.Y FROM building Tb, TABLE(SDO_UTIL.GETVERTICES(Tb.shape)) t where building_on_fire='y'" +
+"SELECT (SDO_UTIL.GETNUMVERTICES(shape)) from building where building_on_fire='y' \n" +
+			
+ "SELECT t.X,t.Y FROM hydrant Tb, TABLE(SDO_UTIL.GETVERTICES(Tb.coord)) t  \n "
+			
+
+
+
+
+
+
+"SELECT t.X,t.Y FROM building B, TABLE(SDO_UTIL.GETVERTICES(B.shape)) t "
+                        + "WHERE sdo_relate(B.shape, "
+                        + "SDO_Geometry (2003, null, null,SDO_ELEM_INFO_ARRAY(1,1003,1),"
+                        + "SDO_ORDINATE_ARRAY("+s1+")), "
+                        + "'mask=ANYINTERACT') = 'TRUE' \n" +
+"SELECT (SDO_UTIL.GETNUMVERTICES(shape)) FROM building B "
+                        + "WHERE sdo_relate(B.shape, "
+                        + "SDO_Geometry (2003, null, null,SDO_ELEM_INFO_ARRAY(1,1003,1),"
+                        + "SDO_ORDINATE_ARRAY("+s1+")), "
+                        + "'mask=ANYINTERACT') = 'TRUE' \n\n" +
+
+Select t.X,t.Y FROM building B, TABLE(SDO_UTIL.GETVERTICES(B.shape)) t "
+                                + "WHERE sdo_relate( b.shape,"
+                                + "SDO_Geometry (2003, null, null,SDO_ELEM_INFO_ARRAY(1,1003,1),"
+                                + "SDO_ORDINATE_ARRAY("+s1+")), "
+                                + "'mask=ANYINTERACT') = 'TRUE' and "
+                                + "b.building_on_fire ='y' \n" +
+SELECT (SDO_UTIL.GETNUMVERTICES(shape)) FROM building B "
+                        + "WHERE sdo_relate(B.shape, "
+                        + "SDO_Geometry (2003, null, null,SDO_ELEM_INFO_ARRAY(1,1003,1),"
+                        + "SDO_ORDINATE_ARRAY("+s1+")), "
+                        + "'mask=ANYINTERACT') = 'TRUE' and b.building_on_fire='y' \n\n" +
+                        
+select t.X,t.Y FROM hydrant h, TABLE(SDO_UTIL.GETVERTICES(h.coord)) t "
+                                + "WHERE sdo_relate( h.coord,"
+                                + "SDO_Geometry (2003, null, null,SDO_ELEM_INFO_ARRAY(1,1003,1),"
+                                + "SDO_ORDINATE_ARRAY("+s1+")), "
+                                + "'mask=ANYINTERACT') = 'TRUE' \n";
+
+
+
+"SELECT t.X,t.Y FROM building B, building G, TABLE(SDO_UTIL.GETVERTICES(B.shape)) t "
+                                + "WHERE SDO_WITHIN_DISTANCE "
+                                + "(B.shape,G.shape,'DISTANCE=100')='TRUE' "
+                                + "AND G.building_on_fire='y' \n" +
+"SELECT (SDO_UTIL.GETNUMVERTICES(B.shape)) FROM building B, building G "
+                                + "WHERE SDO_WITHIN_DISTANCE "
+                                + "(B.shape,G.shape,'DISTANCE=100')='TRUE' "
+                                + "AND G.building_on_fire='y' \n\n" ;
+
+
+
+"SELECT t.X,t.Y FROM building B, TABLE(SDO_UTIL.GETVERTICES(B.shape)) t "
+                                + "WHERE SDO_CONTAINS(b.shape, "
+                                + "SDO_Geometry (2001,null,"
+                                + "SDO_POINT_TYPE("+c+",null),null,null)) = 'TRUE' \n" +
+"SELECT (SDO_UTIL.GETNUMVERTICES(b.shape)) FROM building b "
+                                + "WHERE SDO_CONTAINS(b.shape,"
+                                + " SDO_Geometry (2001,null,"
+                                + "SDO_POINT_TYPE("+c+",null),null,null)) = 'TRUE' \n\n" +
+
+"SELECT t.X,t.Y FROM hydrant h, TABLE(SDO_UTIL.GETVERTICES(h.coord)) t "
+                                + " WHERE SDO_NN(h.coord,"
+                                + " SDO_Geometry (2003,null,null,"
+                                + "SDO_ELEM_INFO_ARRAY(1,1003,1),"
+                                + "SDO_ORDINATE_ARRAY("+c+")),'sdo_num_res=1') = 'TRUE'";
+			

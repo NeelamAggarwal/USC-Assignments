@@ -1,0 +1,455 @@
+2014-04-06 01:25:34 StandardHost[localhost]: Removing web application at context path /admin
+2014-04-06 01:25:34 StandardHost[localhost]: Removing web application at context path /webdav
+2014-04-06 01:25:34 StandardHost[localhost]: Removing web application at context path /examples
+2014-04-06 01:25:34 StandardHost[localhost]: Removing web application at context path /tomcat-docs
+2014-04-06 01:25:34 StandardHost[localhost]: Removing web application at context path 
+2014-04-06 01:25:34 StandardHost[localhost]: Removing web application at context path /manager
+2014-04-06 01:26:34 HostConfig[localhost]: Deploying configuration descriptor admin.xml
+2014-04-06 01:26:41 HostConfig[localhost]: Deploying configuration descriptor manager.xml
+2014-04-06 01:26:41 WebappLoader[/manager]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/manager
+2014-04-06 01:26:41 ContextConfig[/manager]: Configured an authenticator for method BASIC
+2014-04-06 01:26:41 StandardManager[/manager]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 01:26:41 StandardManager[/manager]: Seeding of random number generator has been completed
+2014-04-06 01:26:41 StandardWrapper[/manager:default]: Loading container servlet default
+2014-04-06 01:26:41 StandardWrapper[/manager:invoker]: Loading container servlet invoker
+2014-04-06 01:26:41 HostConfig[localhost]: Deploying web application directory tomcat-docs
+2014-04-06 01:26:41 StandardHost[localhost]: Installing web application at context path /tomcat-docs from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/tomcat-docs
+2014-04-06 01:26:41 WebappLoader[/tomcat-docs]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/tomcat-docs
+2014-04-06 01:26:41 StandardManager[/tomcat-docs]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 01:26:41 StandardManager[/tomcat-docs]: Seeding of random number generator has been completed
+2014-04-06 01:26:41 StandardWrapper[/tomcat-docs:default]: Loading container servlet default
+2014-04-06 01:26:41 StandardWrapper[/tomcat-docs:invoker]: Loading container servlet invoker
+2014-04-06 01:26:41 HostConfig[localhost]: Deploying web application directory webdav
+2014-04-06 01:26:41 StandardHost[localhost]: Installing web application at context path /webdav from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/webdav
+2014-04-06 01:26:41 WebappLoader[/webdav]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/webdav
+2014-04-06 01:26:41 StandardManager[/webdav]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 01:26:41 StandardManager[/webdav]: Seeding of random number generator has been completed
+2014-04-06 01:26:41 StandardWrapper[/webdav:default]: Loading container servlet default
+2014-04-06 01:26:41 StandardWrapper[/webdav:invoker]: Loading container servlet invoker
+2014-04-06 01:26:41 HostConfig[localhost]: Deploying web application directory ROOT
+2014-04-06 01:26:41 StandardHost[localhost]: Installing web application at context path  from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/ROOT
+2014-04-06 01:26:41 WebappLoader[]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/_
+2014-04-06 01:26:41 StandardManager[]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 01:26:41 StandardManager[]: Seeding of random number generator has been completed
+2014-04-06 01:26:41 StandardWrapper[:default]: Loading container servlet default
+2014-04-06 01:26:41 StandardWrapper[:invoker]: Loading container servlet invoker
+2014-04-06 02:07:22 StandardHost[localhost]: Removing web application at context path /admin
+2014-04-06 02:07:22 StandardHost[localhost]: Removing web application at context path /webdav
+2014-04-06 02:07:22 StandardHost[localhost]: Removing web application at context path /examples
+2014-04-06 02:07:22 StandardHost[localhost]: Removing web application at context path /tomcat-docs
+2014-04-06 02:07:22 StandardHost[localhost]: Removing web application at context path 
+2014-04-06 02:07:22 StandardHost[localhost]: Removing web application at context path /manager
+2014-04-06 02:08:39 HostConfig[localhost]: Deploying configuration descriptor admin.xml
+2014-04-06 02:08:46 HostConfig[localhost]: Deploying configuration descriptor manager.xml
+2014-04-06 02:08:46 WebappLoader[/manager]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/manager
+2014-04-06 02:08:46 ContextConfig[/manager]: Configured an authenticator for method BASIC
+2014-04-06 02:08:46 StandardManager[/manager]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 02:08:46 StandardManager[/manager]: Seeding of random number generator has been completed
+2014-04-06 02:08:46 StandardWrapper[/manager:default]: Loading container servlet default
+2014-04-06 02:08:46 StandardWrapper[/manager:invoker]: Loading container servlet invoker
+2014-04-06 02:08:46 HostConfig[localhost]: Deploying web application directory tomcat-docs
+2014-04-06 02:08:46 StandardHost[localhost]: Installing web application at context path /tomcat-docs from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/tomcat-docs
+2014-04-06 02:08:46 WebappLoader[/tomcat-docs]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/tomcat-docs
+2014-04-06 02:08:46 StandardManager[/tomcat-docs]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 02:08:46 StandardManager[/tomcat-docs]: Seeding of random number generator has been completed
+2014-04-06 02:08:46 StandardWrapper[/tomcat-docs:default]: Loading container servlet default
+2014-04-06 02:08:46 StandardWrapper[/tomcat-docs:invoker]: Loading container servlet invoker
+2014-04-06 02:08:46 HostConfig[localhost]: Deploying web application directory webdav
+2014-04-06 02:08:46 StandardHost[localhost]: Installing web application at context path /webdav from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/webdav
+2014-04-06 02:08:46 WebappLoader[/webdav]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/webdav
+2014-04-06 02:08:46 StandardManager[/webdav]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 02:08:46 StandardManager[/webdav]: Seeding of random number generator has been completed
+2014-04-06 02:08:46 StandardWrapper[/webdav:default]: Loading container servlet default
+2014-04-06 02:08:46 StandardWrapper[/webdav:invoker]: Loading container servlet invoker
+2014-04-06 02:08:46 HostConfig[localhost]: Deploying web application directory ROOT
+2014-04-06 02:08:46 StandardHost[localhost]: Installing web application at context path  from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/ROOT
+2014-04-06 02:08:46 WebappLoader[]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/_
+2014-04-06 02:08:46 StandardManager[]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 02:08:46 StandardManager[]: Seeding of random number generator has been completed
+2014-04-06 02:08:46 StandardWrapper[:default]: Loading container servlet default
+2014-04-06 02:08:46 StandardWrapper[:invoker]: Loading container servlet invoker
+2014-04-06 17:26:22 StandardHost[localhost]: Removing web application at context path /admin
+2014-04-06 17:26:22 StandardHost[localhost]: Removing web application at context path /webdav
+2014-04-06 17:26:22 StandardHost[localhost]: Removing web application at context path /examples
+2014-04-06 17:26:22 StandardHost[localhost]: Removing web application at context path /tomcat-docs
+2014-04-06 17:26:22 StandardHost[localhost]: Removing web application at context path 
+2014-04-06 17:26:22 StandardHost[localhost]: Removing web application at context path /manager
+2014-04-06 17:26:32 HostConfig[localhost]: Deploying configuration descriptor admin.xml
+2014-04-06 17:26:39 HostConfig[localhost]: Deploying configuration descriptor manager.xml
+2014-04-06 17:26:39 WebappLoader[/manager]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/manager
+2014-04-06 17:26:39 ContextConfig[/manager]: Configured an authenticator for method BASIC
+2014-04-06 17:26:39 StandardManager[/manager]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 17:26:39 StandardManager[/manager]: Seeding of random number generator has been completed
+2014-04-06 17:26:39 StandardWrapper[/manager:default]: Loading container servlet default
+2014-04-06 17:26:39 StandardWrapper[/manager:invoker]: Loading container servlet invoker
+2014-04-06 17:26:39 HostConfig[localhost]: Deploying web application directory tomcat-docs
+2014-04-06 17:26:39 StandardHost[localhost]: Installing web application at context path /tomcat-docs from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/tomcat-docs
+2014-04-06 17:26:39 WebappLoader[/tomcat-docs]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/tomcat-docs
+2014-04-06 17:26:39 StandardManager[/tomcat-docs]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 17:26:39 StandardManager[/tomcat-docs]: Seeding of random number generator has been completed
+2014-04-06 17:26:39 StandardWrapper[/tomcat-docs:default]: Loading container servlet default
+2014-04-06 17:26:39 StandardWrapper[/tomcat-docs:invoker]: Loading container servlet invoker
+2014-04-06 17:26:39 HostConfig[localhost]: Deploying web application directory webdav
+2014-04-06 17:26:39 StandardHost[localhost]: Installing web application at context path /webdav from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/webdav
+2014-04-06 17:26:39 WebappLoader[/webdav]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/webdav
+2014-04-06 17:26:39 StandardManager[/webdav]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 17:26:39 StandardManager[/webdav]: Seeding of random number generator has been completed
+2014-04-06 17:26:39 StandardWrapper[/webdav:default]: Loading container servlet default
+2014-04-06 17:26:39 StandardWrapper[/webdav:invoker]: Loading container servlet invoker
+2014-04-06 17:26:39 HostConfig[localhost]: Deploying web application directory ROOT
+2014-04-06 17:26:39 StandardHost[localhost]: Installing web application at context path  from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/ROOT
+2014-04-06 17:26:39 WebappLoader[]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/_
+2014-04-06 17:26:39 StandardManager[]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 17:26:39 StandardManager[]: Seeding of random number generator has been completed
+2014-04-06 17:26:39 StandardWrapper[:default]: Loading container servlet default
+2014-04-06 17:26:39 StandardWrapper[:invoker]: Loading container servlet invoker
+2014-04-06 17:37:34 StandardHost[localhost]: Removing web application at context path /admin
+2014-04-06 17:37:34 StandardHost[localhost]: Removing web application at context path /webdav
+2014-04-06 17:37:34 StandardHost[localhost]: Removing web application at context path /examples
+2014-04-06 17:37:34 StandardHost[localhost]: Removing web application at context path /tomcat-docs
+2014-04-06 17:37:34 StandardHost[localhost]: Removing web application at context path 
+2014-04-06 17:37:34 StandardHost[localhost]: Removing web application at context path /manager
+2014-04-06 17:37:51 HostConfig[localhost]: Deploying configuration descriptor admin.xml
+2014-04-06 17:37:58 HostConfig[localhost]: Deploying configuration descriptor manager.xml
+2014-04-06 17:37:58 WebappLoader[/manager]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/manager
+2014-04-06 17:37:58 ContextConfig[/manager]: Configured an authenticator for method BASIC
+2014-04-06 17:37:58 StandardManager[/manager]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 17:37:58 StandardManager[/manager]: Seeding of random number generator has been completed
+2014-04-06 17:37:58 StandardWrapper[/manager:default]: Loading container servlet default
+2014-04-06 17:37:58 StandardWrapper[/manager:invoker]: Loading container servlet invoker
+2014-04-06 17:37:58 HostConfig[localhost]: Deploying web application directory tomcat-docs
+2014-04-06 17:37:58 StandardHost[localhost]: Installing web application at context path /tomcat-docs from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/tomcat-docs
+2014-04-06 17:37:58 WebappLoader[/tomcat-docs]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/tomcat-docs
+2014-04-06 17:37:58 StandardManager[/tomcat-docs]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 17:37:58 StandardManager[/tomcat-docs]: Seeding of random number generator has been completed
+2014-04-06 17:37:58 StandardWrapper[/tomcat-docs:default]: Loading container servlet default
+2014-04-06 17:37:58 StandardWrapper[/tomcat-docs:invoker]: Loading container servlet invoker
+2014-04-06 17:37:58 HostConfig[localhost]: Deploying web application directory webdav
+2014-04-06 17:37:58 StandardHost[localhost]: Installing web application at context path /webdav from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/webdav
+2014-04-06 17:37:58 WebappLoader[/webdav]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/webdav
+2014-04-06 17:37:58 StandardManager[/webdav]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 17:37:58 StandardManager[/webdav]: Seeding of random number generator has been completed
+2014-04-06 17:37:58 StandardWrapper[/webdav:default]: Loading container servlet default
+2014-04-06 17:37:58 StandardWrapper[/webdav:invoker]: Loading container servlet invoker
+2014-04-06 17:37:58 HostConfig[localhost]: Deploying web application directory ROOT
+2014-04-06 17:37:58 StandardHost[localhost]: Installing web application at context path  from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/ROOT
+2014-04-06 17:37:58 WebappLoader[]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/_
+2014-04-06 17:37:58 StandardManager[]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 17:37:58 StandardManager[]: Seeding of random number generator has been completed
+2014-04-06 17:37:58 StandardWrapper[:default]: Loading container servlet default
+2014-04-06 17:37:58 StandardWrapper[:invoker]: Loading container servlet invoker
+2014-04-06 17:41:54 StandardHost[localhost]: Removing web application at context path /admin
+2014-04-06 17:41:54 StandardHost[localhost]: Removing web application at context path /webdav
+2014-04-06 17:41:54 StandardHost[localhost]: Removing web application at context path /examples
+2014-04-06 17:41:54 StandardHost[localhost]: Removing web application at context path /tomcat-docs
+2014-04-06 17:41:54 StandardHost[localhost]: Removing web application at context path 
+2014-04-06 17:41:54 StandardHost[localhost]: Removing web application at context path /manager
+2014-04-06 17:42:03 HostConfig[localhost]: Deploying configuration descriptor admin.xml
+2014-04-06 17:42:10 HostConfig[localhost]: Deploying configuration descriptor manager.xml
+2014-04-06 17:42:10 WebappLoader[/manager]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/manager
+2014-04-06 17:42:10 ContextConfig[/manager]: Configured an authenticator for method BASIC
+2014-04-06 17:42:10 StandardManager[/manager]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 17:42:10 StandardManager[/manager]: Seeding of random number generator has been completed
+2014-04-06 17:42:10 StandardWrapper[/manager:default]: Loading container servlet default
+2014-04-06 17:42:10 StandardWrapper[/manager:invoker]: Loading container servlet invoker
+2014-04-06 17:42:10 HostConfig[localhost]: Deploying web application directory tomcat-docs
+2014-04-06 17:42:10 StandardHost[localhost]: Installing web application at context path /tomcat-docs from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/tomcat-docs
+2014-04-06 17:42:10 WebappLoader[/tomcat-docs]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/tomcat-docs
+2014-04-06 17:42:10 StandardManager[/tomcat-docs]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 17:42:10 StandardManager[/tomcat-docs]: Seeding of random number generator has been completed
+2014-04-06 17:42:10 StandardWrapper[/tomcat-docs:default]: Loading container servlet default
+2014-04-06 17:42:10 StandardWrapper[/tomcat-docs:invoker]: Loading container servlet invoker
+2014-04-06 17:42:10 HostConfig[localhost]: Deploying web application directory webdav
+2014-04-06 17:42:10 StandardHost[localhost]: Installing web application at context path /webdav from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/webdav
+2014-04-06 17:42:10 WebappLoader[/webdav]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/webdav
+2014-04-06 17:42:11 StandardManager[/webdav]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 17:42:11 StandardManager[/webdav]: Seeding of random number generator has been completed
+2014-04-06 17:42:11 StandardWrapper[/webdav:default]: Loading container servlet default
+2014-04-06 17:42:11 StandardWrapper[/webdav:invoker]: Loading container servlet invoker
+2014-04-06 17:42:11 HostConfig[localhost]: Deploying web application directory ROOT
+2014-04-06 17:42:11 StandardHost[localhost]: Installing web application at context path  from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/ROOT
+2014-04-06 17:42:11 WebappLoader[]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/_
+2014-04-06 17:42:11 StandardManager[]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 17:42:11 StandardManager[]: Seeding of random number generator has been completed
+2014-04-06 17:42:11 StandardWrapper[:default]: Loading container servlet default
+2014-04-06 17:42:11 StandardWrapper[:invoker]: Loading container servlet invoker
+2014-04-06 18:45:11 StandardHost[localhost]: Removing web application at context path /admin
+2014-04-06 18:45:11 StandardHost[localhost]: Removing web application at context path /webdav
+2014-04-06 18:45:11 StandardHost[localhost]: Removing web application at context path /examples
+2014-04-06 18:45:11 StandardHost[localhost]: Removing web application at context path /tomcat-docs
+2014-04-06 18:45:11 StandardHost[localhost]: Removing web application at context path 
+2014-04-06 18:45:11 StandardHost[localhost]: Removing web application at context path /manager
+2014-04-06 18:45:24 HostConfig[localhost]: Deploying configuration descriptor admin.xml
+2014-04-06 18:45:31 HostConfig[localhost]: Deploying configuration descriptor manager.xml
+2014-04-06 18:45:31 WebappLoader[/manager]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/manager
+2014-04-06 18:45:31 ContextConfig[/manager]: Configured an authenticator for method BASIC
+2014-04-06 18:45:31 StandardManager[/manager]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 18:45:31 StandardManager[/manager]: Seeding of random number generator has been completed
+2014-04-06 18:45:31 StandardWrapper[/manager:default]: Loading container servlet default
+2014-04-06 18:45:31 StandardWrapper[/manager:invoker]: Loading container servlet invoker
+2014-04-06 18:45:31 HostConfig[localhost]: Deploying web application directory tomcat-docs
+2014-04-06 18:45:31 StandardHost[localhost]: Installing web application at context path /tomcat-docs from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/tomcat-docs
+2014-04-06 18:45:31 WebappLoader[/tomcat-docs]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/tomcat-docs
+2014-04-06 18:45:31 StandardManager[/tomcat-docs]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 18:45:31 StandardManager[/tomcat-docs]: Seeding of random number generator has been completed
+2014-04-06 18:45:31 StandardWrapper[/tomcat-docs:default]: Loading container servlet default
+2014-04-06 18:45:31 StandardWrapper[/tomcat-docs:invoker]: Loading container servlet invoker
+2014-04-06 18:45:31 HostConfig[localhost]: Deploying web application directory webdav
+2014-04-06 18:45:31 StandardHost[localhost]: Installing web application at context path /webdav from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/webdav
+2014-04-06 18:45:31 WebappLoader[/webdav]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/webdav
+2014-04-06 18:45:31 StandardManager[/webdav]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 18:45:31 StandardManager[/webdav]: Seeding of random number generator has been completed
+2014-04-06 18:45:31 StandardWrapper[/webdav:default]: Loading container servlet default
+2014-04-06 18:45:31 StandardWrapper[/webdav:invoker]: Loading container servlet invoker
+2014-04-06 18:45:31 HostConfig[localhost]: Deploying web application directory ROOT
+2014-04-06 18:45:31 StandardHost[localhost]: Installing web application at context path  from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/ROOT
+2014-04-06 18:45:31 WebappLoader[]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/_
+2014-04-06 18:45:31 StandardManager[]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 18:45:31 StandardManager[]: Seeding of random number generator has been completed
+2014-04-06 18:45:31 StandardWrapper[:default]: Loading container servlet default
+2014-04-06 18:45:31 StandardWrapper[:invoker]: Loading container servlet invoker
+2014-04-06 18:48:23 StandardHost[localhost]: Removing web application at context path /admin
+2014-04-06 18:48:23 StandardHost[localhost]: Removing web application at context path /webdav
+2014-04-06 18:48:23 StandardHost[localhost]: Removing web application at context path /examples
+2014-04-06 18:48:23 StandardHost[localhost]: Removing web application at context path /tomcat-docs
+2014-04-06 18:48:23 StandardHost[localhost]: Removing web application at context path 
+2014-04-06 18:48:23 StandardHost[localhost]: Removing web application at context path /manager
+2014-04-06 18:48:30 HostConfig[localhost]: Deploying configuration descriptor admin.xml
+2014-04-06 18:48:37 HostConfig[localhost]: Deploying configuration descriptor manager.xml
+2014-04-06 18:48:37 WebappLoader[/manager]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/manager
+2014-04-06 18:48:37 ContextConfig[/manager]: Configured an authenticator for method BASIC
+2014-04-06 18:48:37 StandardManager[/manager]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 18:48:37 StandardManager[/manager]: Seeding of random number generator has been completed
+2014-04-06 18:48:37 StandardWrapper[/manager:default]: Loading container servlet default
+2014-04-06 18:48:37 StandardWrapper[/manager:invoker]: Loading container servlet invoker
+2014-04-06 18:48:37 HostConfig[localhost]: Deploying web application directory tomcat-docs
+2014-04-06 18:48:37 StandardHost[localhost]: Installing web application at context path /tomcat-docs from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/tomcat-docs
+2014-04-06 18:48:37 WebappLoader[/tomcat-docs]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/tomcat-docs
+2014-04-06 18:48:37 StandardManager[/tomcat-docs]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 18:48:37 StandardManager[/tomcat-docs]: Seeding of random number generator has been completed
+2014-04-06 18:48:37 StandardWrapper[/tomcat-docs:default]: Loading container servlet default
+2014-04-06 18:48:37 StandardWrapper[/tomcat-docs:invoker]: Loading container servlet invoker
+2014-04-06 18:48:37 HostConfig[localhost]: Deploying web application directory webdav
+2014-04-06 18:48:37 StandardHost[localhost]: Installing web application at context path /webdav from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/webdav
+2014-04-06 18:48:37 WebappLoader[/webdav]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/webdav
+2014-04-06 18:48:38 StandardManager[/webdav]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 18:48:38 StandardManager[/webdav]: Seeding of random number generator has been completed
+2014-04-06 18:48:38 StandardWrapper[/webdav:default]: Loading container servlet default
+2014-04-06 18:48:38 StandardWrapper[/webdav:invoker]: Loading container servlet invoker
+2014-04-06 18:48:38 HostConfig[localhost]: Deploying web application directory ROOT
+2014-04-06 18:48:38 StandardHost[localhost]: Installing web application at context path  from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/ROOT
+2014-04-06 18:48:38 WebappLoader[]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/_
+2014-04-06 18:48:38 StandardManager[]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 18:48:38 StandardManager[]: Seeding of random number generator has been completed
+2014-04-06 18:48:38 StandardWrapper[:default]: Loading container servlet default
+2014-04-06 18:48:38 StandardWrapper[:invoker]: Loading container servlet invoker
+2014-04-06 18:52:47 StandardHost[localhost]: Removing web application at context path /admin
+2014-04-06 18:52:47 StandardHost[localhost]: Removing web application at context path /webdav
+2014-04-06 18:52:47 StandardHost[localhost]: Removing web application at context path /examples
+2014-04-06 18:52:47 StandardHost[localhost]: Removing web application at context path /tomcat-docs
+2014-04-06 18:52:47 StandardHost[localhost]: Removing web application at context path 
+2014-04-06 18:52:48 StandardHost[localhost]: Removing web application at context path /manager
+2014-04-06 18:52:55 HostConfig[localhost]: Deploying configuration descriptor admin.xml
+2014-04-06 18:53:02 HostConfig[localhost]: Deploying configuration descriptor manager.xml
+2014-04-06 18:53:02 WebappLoader[/manager]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/manager
+2014-04-06 18:53:02 ContextConfig[/manager]: Configured an authenticator for method BASIC
+2014-04-06 18:53:02 StandardManager[/manager]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 18:53:02 StandardManager[/manager]: Seeding of random number generator has been completed
+2014-04-06 18:53:02 StandardWrapper[/manager:default]: Loading container servlet default
+2014-04-06 18:53:02 StandardWrapper[/manager:invoker]: Loading container servlet invoker
+2014-04-06 18:53:02 HostConfig[localhost]: Deploying web application directory tomcat-docs
+2014-04-06 18:53:02 StandardHost[localhost]: Installing web application at context path /tomcat-docs from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/tomcat-docs
+2014-04-06 18:53:02 WebappLoader[/tomcat-docs]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/tomcat-docs
+2014-04-06 18:53:02 StandardManager[/tomcat-docs]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 18:53:02 StandardManager[/tomcat-docs]: Seeding of random number generator has been completed
+2014-04-06 18:53:02 StandardWrapper[/tomcat-docs:default]: Loading container servlet default
+2014-04-06 18:53:02 StandardWrapper[/tomcat-docs:invoker]: Loading container servlet invoker
+2014-04-06 18:53:02 HostConfig[localhost]: Deploying web application directory webdav
+2014-04-06 18:53:02 StandardHost[localhost]: Installing web application at context path /webdav from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/webdav
+2014-04-06 18:53:02 WebappLoader[/webdav]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/webdav
+2014-04-06 18:53:02 StandardManager[/webdav]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 18:53:02 StandardManager[/webdav]: Seeding of random number generator has been completed
+2014-04-06 18:53:02 StandardWrapper[/webdav:default]: Loading container servlet default
+2014-04-06 18:53:02 StandardWrapper[/webdav:invoker]: Loading container servlet invoker
+2014-04-06 18:53:02 HostConfig[localhost]: Deploying web application directory ROOT
+2014-04-06 18:53:02 StandardHost[localhost]: Installing web application at context path  from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/ROOT
+2014-04-06 18:53:02 WebappLoader[]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/_
+2014-04-06 18:53:02 StandardManager[]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 18:53:02 StandardManager[]: Seeding of random number generator has been completed
+2014-04-06 18:53:02 StandardWrapper[:default]: Loading container servlet default
+2014-04-06 18:53:02 StandardWrapper[:invoker]: Loading container servlet invoker
+2014-04-06 18:57:47 StandardHost[localhost]: Removing web application at context path /admin
+2014-04-06 18:57:47 StandardHost[localhost]: Removing web application at context path /webdav
+2014-04-06 18:57:47 StandardHost[localhost]: Removing web application at context path /examples
+2014-04-06 18:57:47 StandardHost[localhost]: Removing web application at context path /tomcat-docs
+2014-04-06 18:57:47 StandardHost[localhost]: Removing web application at context path 
+2014-04-06 18:57:47 StandardHost[localhost]: Removing web application at context path /manager
+2014-04-06 18:57:55 HostConfig[localhost]: Deploying configuration descriptor admin.xml
+2014-04-06 18:58:02 HostConfig[localhost]: Deploying configuration descriptor manager.xml
+2014-04-06 18:58:02 WebappLoader[/manager]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/manager
+2014-04-06 18:58:02 ContextConfig[/manager]: Configured an authenticator for method BASIC
+2014-04-06 18:58:02 StandardManager[/manager]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 18:58:02 StandardManager[/manager]: Seeding of random number generator has been completed
+2014-04-06 18:58:02 StandardWrapper[/manager:default]: Loading container servlet default
+2014-04-06 18:58:02 StandardWrapper[/manager:invoker]: Loading container servlet invoker
+2014-04-06 18:58:02 HostConfig[localhost]: Deploying web application directory tomcat-docs
+2014-04-06 18:58:02 StandardHost[localhost]: Installing web application at context path /tomcat-docs from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/tomcat-docs
+2014-04-06 18:58:02 WebappLoader[/tomcat-docs]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/tomcat-docs
+2014-04-06 18:58:02 StandardManager[/tomcat-docs]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 18:58:02 StandardManager[/tomcat-docs]: Seeding of random number generator has been completed
+2014-04-06 18:58:02 StandardWrapper[/tomcat-docs:default]: Loading container servlet default
+2014-04-06 18:58:02 StandardWrapper[/tomcat-docs:invoker]: Loading container servlet invoker
+2014-04-06 18:58:02 HostConfig[localhost]: Deploying web application directory webdav
+2014-04-06 18:58:02 StandardHost[localhost]: Installing web application at context path /webdav from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/webdav
+2014-04-06 18:58:02 WebappLoader[/webdav]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/webdav
+2014-04-06 18:58:02 StandardManager[/webdav]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 18:58:02 StandardManager[/webdav]: Seeding of random number generator has been completed
+2014-04-06 18:58:02 StandardWrapper[/webdav:default]: Loading container servlet default
+2014-04-06 18:58:02 StandardWrapper[/webdav:invoker]: Loading container servlet invoker
+2014-04-06 18:58:02 HostConfig[localhost]: Deploying web application directory ROOT
+2014-04-06 18:58:02 StandardHost[localhost]: Installing web application at context path  from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/ROOT
+2014-04-06 18:58:02 WebappLoader[]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/_
+2014-04-06 18:58:02 StandardManager[]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 18:58:02 StandardManager[]: Seeding of random number generator has been completed
+2014-04-06 18:58:02 StandardWrapper[:default]: Loading container servlet default
+2014-04-06 18:58:02 StandardWrapper[:invoker]: Loading container servlet invoker
+2014-04-06 18:59:24 StandardHost[localhost]: Removing web application at context path /admin
+2014-04-06 18:59:24 StandardHost[localhost]: Removing web application at context path /webdav
+2014-04-06 18:59:24 StandardHost[localhost]: Removing web application at context path /examples
+2014-04-06 18:59:24 StandardHost[localhost]: Removing web application at context path /tomcat-docs
+2014-04-06 18:59:24 StandardHost[localhost]: Removing web application at context path 
+2014-04-06 18:59:24 StandardHost[localhost]: Removing web application at context path /manager
+2014-04-06 18:59:32 HostConfig[localhost]: Deploying configuration descriptor admin.xml
+2014-04-06 18:59:39 HostConfig[localhost]: Deploying configuration descriptor manager.xml
+2014-04-06 18:59:39 WebappLoader[/manager]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/manager
+2014-04-06 18:59:39 ContextConfig[/manager]: Configured an authenticator for method BASIC
+2014-04-06 18:59:39 StandardManager[/manager]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 18:59:39 StandardManager[/manager]: Seeding of random number generator has been completed
+2014-04-06 18:59:39 StandardWrapper[/manager:default]: Loading container servlet default
+2014-04-06 18:59:39 StandardWrapper[/manager:invoker]: Loading container servlet invoker
+2014-04-06 18:59:39 HostConfig[localhost]: Deploying web application directory tomcat-docs
+2014-04-06 18:59:39 StandardHost[localhost]: Installing web application at context path /tomcat-docs from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/tomcat-docs
+2014-04-06 18:59:39 WebappLoader[/tomcat-docs]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/tomcat-docs
+2014-04-06 18:59:39 StandardManager[/tomcat-docs]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 18:59:39 StandardManager[/tomcat-docs]: Seeding of random number generator has been completed
+2014-04-06 18:59:39 StandardWrapper[/tomcat-docs:default]: Loading container servlet default
+2014-04-06 18:59:39 StandardWrapper[/tomcat-docs:invoker]: Loading container servlet invoker
+2014-04-06 18:59:39 HostConfig[localhost]: Deploying web application directory webdav
+2014-04-06 18:59:39 StandardHost[localhost]: Installing web application at context path /webdav from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/webdav
+2014-04-06 18:59:39 WebappLoader[/webdav]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/webdav
+2014-04-06 18:59:39 StandardManager[/webdav]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 18:59:39 StandardManager[/webdav]: Seeding of random number generator has been completed
+2014-04-06 18:59:39 StandardWrapper[/webdav:default]: Loading container servlet default
+2014-04-06 18:59:39 StandardWrapper[/webdav:invoker]: Loading container servlet invoker
+2014-04-06 18:59:39 HostConfig[localhost]: Deploying web application directory ROOT
+2014-04-06 18:59:39 StandardHost[localhost]: Installing web application at context path  from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/ROOT
+2014-04-06 18:59:39 WebappLoader[]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/_
+2014-04-06 18:59:39 StandardManager[]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 18:59:39 StandardManager[]: Seeding of random number generator has been completed
+2014-04-06 18:59:39 StandardWrapper[:default]: Loading container servlet default
+2014-04-06 18:59:39 StandardWrapper[:invoker]: Loading container servlet invoker
+2014-04-06 19:10:30 StandardHost[localhost]: Removing web application at context path /admin
+2014-04-06 19:10:30 StandardHost[localhost]: Removing web application at context path /webdav
+2014-04-06 19:10:30 StandardHost[localhost]: Removing web application at context path /examples
+2014-04-06 19:10:30 StandardHost[localhost]: Removing web application at context path /tomcat-docs
+2014-04-06 19:10:30 StandardHost[localhost]: Removing web application at context path 
+2014-04-06 19:10:30 StandardHost[localhost]: Removing web application at context path /manager
+2014-04-06 19:10:38 HostConfig[localhost]: Deploying configuration descriptor admin.xml
+2014-04-06 19:10:45 HostConfig[localhost]: Deploying configuration descriptor manager.xml
+2014-04-06 19:10:45 WebappLoader[/manager]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/manager
+2014-04-06 19:10:45 ContextConfig[/manager]: Configured an authenticator for method BASIC
+2014-04-06 19:10:45 StandardManager[/manager]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 19:10:45 StandardManager[/manager]: Seeding of random number generator has been completed
+2014-04-06 19:10:45 StandardWrapper[/manager:default]: Loading container servlet default
+2014-04-06 19:10:45 StandardWrapper[/manager:invoker]: Loading container servlet invoker
+2014-04-06 19:10:45 HostConfig[localhost]: Deploying web application directory tomcat-docs
+2014-04-06 19:10:45 StandardHost[localhost]: Installing web application at context path /tomcat-docs from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/tomcat-docs
+2014-04-06 19:10:45 WebappLoader[/tomcat-docs]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/tomcat-docs
+2014-04-06 19:10:46 StandardManager[/tomcat-docs]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 19:10:46 StandardManager[/tomcat-docs]: Seeding of random number generator has been completed
+2014-04-06 19:10:46 StandardWrapper[/tomcat-docs:default]: Loading container servlet default
+2014-04-06 19:10:46 StandardWrapper[/tomcat-docs:invoker]: Loading container servlet invoker
+2014-04-06 19:10:46 HostConfig[localhost]: Deploying web application directory webdav
+2014-04-06 19:10:46 StandardHost[localhost]: Installing web application at context path /webdav from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/webdav
+2014-04-06 19:10:46 WebappLoader[/webdav]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/webdav
+2014-04-06 19:10:46 StandardManager[/webdav]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 19:10:46 StandardManager[/webdav]: Seeding of random number generator has been completed
+2014-04-06 19:10:46 StandardWrapper[/webdav:default]: Loading container servlet default
+2014-04-06 19:10:46 StandardWrapper[/webdav:invoker]: Loading container servlet invoker
+2014-04-06 19:10:46 HostConfig[localhost]: Deploying web application directory ROOT
+2014-04-06 19:10:46 StandardHost[localhost]: Installing web application at context path  from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/ROOT
+2014-04-06 19:10:46 WebappLoader[]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/_
+2014-04-06 19:10:46 StandardManager[]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 19:10:46 StandardManager[]: Seeding of random number generator has been completed
+2014-04-06 19:10:46 StandardWrapper[:default]: Loading container servlet default
+2014-04-06 19:10:46 StandardWrapper[:invoker]: Loading container servlet invoker
+2014-04-06 19:32:11 StandardHost[localhost]: Removing web application at context path /admin
+2014-04-06 19:32:11 StandardHost[localhost]: Removing web application at context path /webdav
+2014-04-06 19:32:11 StandardHost[localhost]: Removing web application at context path /examples
+2014-04-06 19:32:11 StandardHost[localhost]: Removing web application at context path /tomcat-docs
+2014-04-06 19:32:11 StandardHost[localhost]: Removing web application at context path 
+2014-04-06 19:32:12 StandardHost[localhost]: Removing web application at context path /manager
+2014-04-06 19:32:19 HostConfig[localhost]: Deploying configuration descriptor admin.xml
+2014-04-06 19:32:26 HostConfig[localhost]: Deploying configuration descriptor manager.xml
+2014-04-06 19:32:26 WebappLoader[/manager]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/manager
+2014-04-06 19:32:26 ContextConfig[/manager]: Configured an authenticator for method BASIC
+2014-04-06 19:32:26 StandardManager[/manager]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 19:32:26 StandardManager[/manager]: Seeding of random number generator has been completed
+2014-04-06 19:32:26 StandardWrapper[/manager:default]: Loading container servlet default
+2014-04-06 19:32:26 StandardWrapper[/manager:invoker]: Loading container servlet invoker
+2014-04-06 19:32:26 HostConfig[localhost]: Deploying web application directory tomcat-docs
+2014-04-06 19:32:26 StandardHost[localhost]: Installing web application at context path /tomcat-docs from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/tomcat-docs
+2014-04-06 19:32:26 WebappLoader[/tomcat-docs]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/tomcat-docs
+2014-04-06 19:32:26 StandardManager[/tomcat-docs]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 19:32:26 StandardManager[/tomcat-docs]: Seeding of random number generator has been completed
+2014-04-06 19:32:26 StandardWrapper[/tomcat-docs:default]: Loading container servlet default
+2014-04-06 19:32:26 StandardWrapper[/tomcat-docs:invoker]: Loading container servlet invoker
+2014-04-06 19:32:26 HostConfig[localhost]: Deploying web application directory webdav
+2014-04-06 19:32:26 StandardHost[localhost]: Installing web application at context path /webdav from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/webdav
+2014-04-06 19:32:26 WebappLoader[/webdav]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/webdav
+2014-04-06 19:32:27 StandardManager[/webdav]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 19:32:27 StandardManager[/webdav]: Seeding of random number generator has been completed
+2014-04-06 19:32:27 StandardWrapper[/webdav:default]: Loading container servlet default
+2014-04-06 19:32:27 StandardWrapper[/webdav:invoker]: Loading container servlet invoker
+2014-04-06 19:32:27 HostConfig[localhost]: Deploying web application directory ROOT
+2014-04-06 19:32:27 StandardHost[localhost]: Installing web application at context path  from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/ROOT
+2014-04-06 19:32:27 WebappLoader[]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/_
+2014-04-06 19:32:27 StandardManager[]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 19:32:27 StandardManager[]: Seeding of random number generator has been completed
+2014-04-06 19:32:27 StandardWrapper[:default]: Loading container servlet default
+2014-04-06 19:32:27 StandardWrapper[:invoker]: Loading container servlet invoker
+2014-04-06 19:38:23 StandardHost[localhost]: Removing web application at context path /admin
+2014-04-06 19:38:23 StandardHost[localhost]: Removing web application at context path /webdav
+2014-04-06 19:38:23 StandardHost[localhost]: Removing web application at context path /examples
+2014-04-06 19:38:23 StandardHost[localhost]: Removing web application at context path /tomcat-docs
+2014-04-06 19:38:23 StandardHost[localhost]: Removing web application at context path 
+2014-04-06 19:38:23 StandardHost[localhost]: Removing web application at context path /manager
+2014-04-06 19:38:31 HostConfig[localhost]: Deploying configuration descriptor admin.xml
+2014-04-06 19:38:38 HostConfig[localhost]: Deploying configuration descriptor manager.xml
+2014-04-06 19:38:38 WebappLoader[/manager]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/manager
+2014-04-06 19:38:38 ContextConfig[/manager]: Configured an authenticator for method BASIC
+2014-04-06 19:38:38 StandardManager[/manager]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 19:38:38 StandardManager[/manager]: Seeding of random number generator has been completed
+2014-04-06 19:38:38 StandardWrapper[/manager:default]: Loading container servlet default
+2014-04-06 19:38:38 StandardWrapper[/manager:invoker]: Loading container servlet invoker
+2014-04-06 19:38:38 HostConfig[localhost]: Deploying web application directory tomcat-docs
+2014-04-06 19:38:38 StandardHost[localhost]: Installing web application at context path /tomcat-docs from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/tomcat-docs
+2014-04-06 19:38:38 WebappLoader[/tomcat-docs]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/tomcat-docs
+2014-04-06 19:38:38 StandardManager[/tomcat-docs]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 19:38:38 StandardManager[/tomcat-docs]: Seeding of random number generator has been completed
+2014-04-06 19:38:38 StandardWrapper[/tomcat-docs:default]: Loading container servlet default
+2014-04-06 19:38:38 StandardWrapper[/tomcat-docs:invoker]: Loading container servlet invoker
+2014-04-06 19:38:38 HostConfig[localhost]: Deploying web application directory webdav
+2014-04-06 19:38:38 StandardHost[localhost]: Installing web application at context path /webdav from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/webdav
+2014-04-06 19:38:38 WebappLoader[/webdav]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/webdav
+2014-04-06 19:38:38 StandardManager[/webdav]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 19:38:38 StandardManager[/webdav]: Seeding of random number generator has been completed
+2014-04-06 19:38:38 StandardWrapper[/webdav:default]: Loading container servlet default
+2014-04-06 19:38:38 StandardWrapper[/webdav:invoker]: Loading container servlet invoker
+2014-04-06 19:38:38 HostConfig[localhost]: Deploying web application directory ROOT
+2014-04-06 19:38:38 StandardHost[localhost]: Installing web application at context path  from URL file:/home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/webapps/ROOT
+2014-04-06 19:38:38 WebappLoader[]: Deploying class repositories to work directory /home/scf-04/neelamag/Tomcat/jakarta-tomcat-4.1.27/work/Standalone/localhost/_
+2014-04-06 19:38:38 StandardManager[]: Seeding random number generator class java.security.SecureRandom
+2014-04-06 19:38:38 StandardManager[]: Seeding of random number generator has been completed
+2014-04-06 19:38:38 StandardWrapper[:default]: Loading container servlet default
+2014-04-06 19:38:38 StandardWrapper[:invoker]: Loading container servlet invoker

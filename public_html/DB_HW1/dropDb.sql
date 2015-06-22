@@ -1,0 +1,11 @@
+drop table friendlist_table;
+drop table visible_to_table;
+drop table people_like_post;
+drop table people_like_comment;
+drop table comments;
+drop table post;
+drop table wall;
+drop table fbuser;
+drop view total_post_likes ;
+drop view total_comment_likes;
+drop view sum_fbFriends;

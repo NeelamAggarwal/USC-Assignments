@@ -1,0 +1,3 @@
+2014-12-02 15:45:40 InvokerFilter(ApplicationFilterConfig[name=Path Mapped Filter, filterClass=filters.ExampleFilter]): 796 milliseconds
+2014-12-02 16:45:29 SessionListener: sessionCreated('2278E48EC6778F33CDB5D46F4BD22F3B')
+2014-12-02 17:16:03 SessionListener: sessionDestroyed('2278E48EC6778F33CDB5D46F4BD22F3B')

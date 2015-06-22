@@ -1,0 +1,236 @@
+run:
+Looking for Oracle's jdbc-odbc driver ... Loaded.Connecting to DB...connected !!
+Input Line: 	p0, 228, 102
+Tokens: 	INSERT INTO hydrant values('p0',SDO_Geometry (2001,null,SDO_POINT_TYPE( 228, 102,null),null,null))
+Input Line: 	p1, 220, 112
+Tokens: 	INSERT INTO hydrant values('p1',SDO_Geometry (2001,null,SDO_POINT_TYPE( 220, 112,null),null,null))
+Input Line: 	p2, 213, 135
+Tokens: 	INSERT INTO hydrant values('p2',SDO_Geometry (2001,null,SDO_POINT_TYPE( 213, 135,null),null,null))
+Input Line: 	p3, 189, 177
+Tokens: 	INSERT INTO hydrant values('p3',SDO_Geometry (2001,null,SDO_POINT_TYPE( 189, 177,null),null,null))
+Input Line: 	p4, 180, 202
+Tokens: 	INSERT INTO hydrant values('p4',SDO_Geometry (2001,null,SDO_POINT_TYPE( 180, 202,null),null,null))
+Input Line: 	p5, 166, 231
+Tokens: 	INSERT INTO hydrant values('p5',SDO_Geometry (2001,null,SDO_POINT_TYPE( 166, 231,null),null,null))
+Input Line: 	p6, 153, 257
+Tokens: 	INSERT INTO hydrant values('p6',SDO_Geometry (2001,null,SDO_POINT_TYPE( 153, 257,null),null,null))
+Input Line: 	p7, 138, 278
+Tokens: 	INSERT INTO hydrant values('p7',SDO_Geometry (2001,null,SDO_POINT_TYPE( 138, 278,null),null,null))
+Input Line: 	p8, 125, 300
+Tokens: 	INSERT INTO hydrant values('p8',SDO_Geometry (2001,null,SDO_POINT_TYPE( 125, 300,null),null,null))
+Input Line: 	p9, 116, 320
+Tokens: 	INSERT INTO hydrant values('p9',SDO_Geometry (2001,null,SDO_POINT_TYPE( 116, 320,null),null,null))
+Input Line: 	p10, 94, 369
+Tokens: 	INSERT INTO hydrant values('p10',SDO_Geometry (2001,null,SDO_POINT_TYPE( 94, 369,null),null,null))
+Input Line: 	p11, 104, 394
+Tokens: 	INSERT INTO hydrant values('p11',SDO_Geometry (2001,null,SDO_POINT_TYPE( 104, 394,null),null,null))
+Input Line: 	p12, 136, 409
+Tokens: 	INSERT INTO hydrant values('p12',SDO_Geometry (2001,null,SDO_POINT_TYPE( 136, 409,null),null,null))
+Input Line: 	p13, 171, 430
+Tokens: 	INSERT INTO hydrant values('p13',SDO_Geometry (2001,null,SDO_POINT_TYPE( 171, 430,null),null,null))
+Input Line: 	p14, 195, 438
+Tokens: 	INSERT INTO hydrant values('p14',SDO_Geometry (2001,null,SDO_POINT_TYPE( 195, 438,null),null,null))
+Input Line: 	p15, 221, 453
+Tokens: 	INSERT INTO hydrant values('p15',SDO_Geometry (2001,null,SDO_POINT_TYPE( 221, 453,null),null,null))
+Input Line: 	p16, 250, 462
+Tokens: 	INSERT INTO hydrant values('p16',SDO_Geometry (2001,null,SDO_POINT_TYPE( 250, 462,null),null,null))
+Input Line: 	p17, 283, 485
+Tokens: 	INSERT INTO hydrant values('p17',SDO_Geometry (2001,null,SDO_POINT_TYPE( 283, 485,null),null,null))
+Input Line: 	p18, 320, 505
+Tokens: 	INSERT INTO hydrant values('p18',SDO_Geometry (2001,null,SDO_POINT_TYPE( 320, 505,null),null,null))
+Input Line: 	p19, 342, 502
+Tokens: 	INSERT INTO hydrant values('p19',SDO_Geometry (2001,null,SDO_POINT_TYPE( 342, 502,null),null,null))
+Input Line: 	p20, 365, 475
+Tokens: 	INSERT INTO hydrant values('p20',SDO_Geometry (2001,null,SDO_POINT_TYPE( 365, 475,null),null,null))
+Input Line: 	p21, 320, 531
+Tokens: 	INSERT INTO hydrant values('p21',SDO_Geometry (2001,null,SDO_POINT_TYPE( 320, 531,null),null,null))
+Input Line: 	p22, 318, 561
+Tokens: 	INSERT INTO hydrant values('p22',SDO_Geometry (2001,null,SDO_POINT_TYPE( 318, 561,null),null,null))
+Input Line: 	p23, 439, 318
+Tokens: 	INSERT INTO hydrant values('p23',SDO_Geometry (2001,null,SDO_POINT_TYPE( 439, 318,null),null,null))
+Input Line: 	p24, 422, 344
+Tokens: 	INSERT INTO hydrant values('p24',SDO_Geometry (2001,null,SDO_POINT_TYPE( 422, 344,null),null,null))
+Input Line: 	p25, 412, 378
+Tokens: 	INSERT INTO hydrant values('p25',SDO_Geometry (2001,null,SDO_POINT_TYPE( 412, 378,null),null,null))
+Input Line: 	p26, 484, 233
+Tokens: 	INSERT INTO hydrant values('p26',SDO_Geometry (2001,null,SDO_POINT_TYPE( 484, 233,null),null,null))
+Input Line: 	p27, 504, 208
+Tokens: 	INSERT INTO hydrant values('p27',SDO_Geometry (2001,null,SDO_POINT_TYPE( 504, 208,null),null,null))
+Input Line: 	p28, 518, 175
+Tokens: 	INSERT INTO hydrant values('p28',SDO_Geometry (2001,null,SDO_POINT_TYPE( 518, 175,null),null,null))
+Input Line: 	p29, 516, 290
+Tokens: 	INSERT INTO hydrant values('p29',SDO_Geometry (2001,null,SDO_POINT_TYPE( 516, 290,null),null,null))
+Input Line: 	p30, 531, 299
+Tokens: 	INSERT INTO hydrant values('p30',SDO_Geometry (2001,null,SDO_POINT_TYPE( 531, 299,null),null,null))
+Input Line: 	p31, 588, 328
+Tokens: 	INSERT INTO hydrant values('p31',SDO_Geometry (2001,null,SDO_POINT_TYPE( 588, 328,null),null,null))
+Input Line: 	p32, 637, 352
+Tokens: 	INSERT INTO hydrant values('p32',SDO_Geometry (2001,null,SDO_POINT_TYPE( 637, 352,null),null,null))
+Input Line: 	p33, 657, 363
+Tokens: 	INSERT INTO hydrant values('p33',SDO_Geometry (2001,null,SDO_POINT_TYPE( 657, 363,null),null,null))
+Input Line: 	p34, 448, 409
+Tokens: 	INSERT INTO hydrant values('p34',SDO_Geometry (2001,null,SDO_POINT_TYPE( 448, 409,null),null,null))
+Input Line: 	p35, 464, 420
+Tokens: 	INSERT INTO hydrant values('p35',SDO_Geometry (2001,null,SDO_POINT_TYPE( 464, 420,null),null,null))
+Input Line: 	p36, 484, 428
+Tokens: 	INSERT INTO hydrant values('p36',SDO_Geometry (2001,null,SDO_POINT_TYPE( 484, 428,null),null,null))
+Input Line: 	p37, 491, 432
+Tokens: 	INSERT INTO hydrant values('p37',SDO_Geometry (2001,null,SDO_POINT_TYPE( 491, 432,null),null,null))
+Input Line: 	p38, 507, 438
+Tokens: 	INSERT INTO hydrant values('p38',SDO_Geometry (2001,null,SDO_POINT_TYPE( 507, 438,null),null,null))
+Input Line: 	p39, 548, 462
+Tokens: 	INSERT INTO hydrant values('p39',SDO_Geometry (2001,null,SDO_POINT_TYPE( 548, 462,null),null,null))
+Input Line: 	p40, 583, 480
+Tokens: 	INSERT INTO hydrant values('p40',SDO_Geometry (2001,null,SDO_POINT_TYPE( 583, 480,null),null,null))
+Input Line: 	p41, 302, 197
+Tokens: 	INSERT INTO hydrant values('p41',SDO_Geometry (2001,null,SDO_POINT_TYPE( 302, 197,null),null,null))
+Input Line: 	p42, 290, 188
+Tokens: 	INSERT INTO hydrant values('p42',SDO_Geometry (2001,null,SDO_POINT_TYPE( 290, 188,null),null,null))
+Input Line: 	p43, 297, 202
+Tokens: 	INSERT INTO hydrant values('p43',SDO_Geometry (2001,null,SDO_POINT_TYPE( 297, 202,null),null,null))
+Input Line: 	p44, 358, 199
+Tokens: 	INSERT INTO hydrant values('p44',SDO_Geometry (2001,null,SDO_POINT_TYPE( 358, 199,null),null,null))
+Input Line: 	p45, 384, 214
+Tokens: 	INSERT INTO hydrant values('p45',SDO_Geometry (2001,null,SDO_POINT_TYPE( 384, 214,null),null,null))
+Input Line: 	p46, 281, 162
+Tokens: 	INSERT INTO hydrant values('p46',SDO_Geometry (2001,null,SDO_POINT_TYPE( 281, 162,null),null,null))
+Input Line: 	p47, 264, 314
+Tokens: 	INSERT INTO hydrant values('p47',SDO_Geometry (2001,null,SDO_POINT_TYPE( 264, 314,null),null,null))
+Input Line: 	p48, 256, 302
+Tokens: 	INSERT INTO hydrant values('p48',SDO_Geometry (2001,null,SDO_POINT_TYPE( 256, 302,null),null,null))
+Input Line: 	p49, 221, 285
+Tokens: 	INSERT INTO hydrant values('p49',SDO_Geometry (2001,null,SDO_POINT_TYPE( 221, 285,null),null,null))
+Input Line: 	p50, 197, 275
+Tokens: 	INSERT INTO hydrant values('p50',SDO_Geometry (2001,null,SDO_POINT_TYPE( 197, 275,null),null,null))
+Input Line: 	p51, 179, 338
+Tokens: 	INSERT INTO hydrant values('p51',SDO_Geometry (2001,null,SDO_POINT_TYPE( 179, 338,null),null,null))
+Input Line: 	p52, 161, 325
+Tokens: 	INSERT INTO hydrant values('p52',SDO_Geometry (2001,null,SDO_POINT_TYPE( 161, 325,null),null,null))
+Input Line: 	p53, 378, 280
+Tokens: 	INSERT INTO hydrant values('p53',SDO_Geometry (2001,null,SDO_POINT_TYPE( 378, 280,null),null,null))
+Input Line: 	p54, 362, 267
+Tokens: 	INSERT INTO hydrant values('p54',SDO_Geometry (2001,null,SDO_POINT_TYPE( 362, 267,null),null,null))
+Input Line: 	p55, 530, 364
+Tokens: 	INSERT INTO hydrant values('p55',SDO_Geometry (2001,null,SDO_POINT_TYPE( 530, 364,null),null,null))
+Input Line: 	p56, 535, 353
+Tokens: 	INSERT INTO hydrant values('p56',SDO_Geometry (2001,null,SDO_POINT_TYPE( 535, 353,null),null,null))
+Input Line: 	p57, 589, 448
+Tokens: 	INSERT INTO hydrant values('p57',SDO_Geometry (2001,null,SDO_POINT_TYPE( 589, 448,null),null,null))
+Input Line: 	p58, 691, 456
+Tokens: 	INSERT INTO hydrant values('p58',SDO_Geometry (2001,null,SDO_POINT_TYPE( 691, 456,null),null,null))
+Input Line: 	p59, 698, 427
+Tokens: 	INSERT INTO hydrant values('p59',SDO_Geometry (2001,null,SDO_POINT_TYPE( 698, 427,null),null,null))
+Input Line: 	p60, 716, 430
+Tokens: 	INSERT INTO hydrant values('p60',SDO_Geometry (2001,null,SDO_POINT_TYPE( 716, 430,null),null,null))
+Input Line: 	p61, 723, 446
+Tokens: 	INSERT INTO hydrant values('p61',SDO_Geometry (2001,null,SDO_POINT_TYPE( 723, 446,null),null,null))
+Input Line: 	p62, 687, 503
+Tokens: 	INSERT INTO hydrant values('p62',SDO_Geometry (2001,null,SDO_POINT_TYPE( 687, 503,null),null,null))
+Input Line: 	p63, 674, 525
+Tokens: 	INSERT INTO hydrant values('p63',SDO_Geometry (2001,null,SDO_POINT_TYPE( 674, 525,null),null,null))
+Input Line: 	p64, 652, 523
+Tokens: 	INSERT INTO hydrant values('p64',SDO_Geometry (2001,null,SDO_POINT_TYPE( 652, 523,null),null,null))
+Input Line: 	p65, 645, 539
+Tokens: 	INSERT INTO hydrant values('p65',SDO_Geometry (2001,null,SDO_POINT_TYPE( 645, 539,null),null,null))
+Input Line: 	p66, 659, 309
+Tokens: 	INSERT INTO hydrant values('p66',SDO_Geometry (2001,null,SDO_POINT_TYPE( 659, 309,null),null,null))
+Input Line: 	p67, 716, 340
+Tokens: 	INSERT INTO hydrant values('p67',SDO_Geometry (2001,null,SDO_POINT_TYPE( 716, 340,null),null,null))
+Input Line: 	p68, 524, 150
+Tokens: 	INSERT INTO hydrant values('p68',SDO_Geometry (2001,null,SDO_POINT_TYPE( 524, 150,null),null,null))
+Input Line: 	p69, 476, 258
+Tokens: 	INSERT INTO hydrant values('p69',SDO_Geometry (2001,null,SDO_POINT_TYPE( 476, 258,null),null,null))
+Input Line: 	p70, 241, 269
+Tokens: 	INSERT INTO hydrant values('p70',SDO_Geometry (2001,null,SDO_POINT_TYPE( 241, 269,null),null,null))
+Input Line: 	p71, 284, 409
+Tokens: 	INSERT INTO hydrant values('p71',SDO_Geometry (2001,null,SDO_POINT_TYPE( 284, 409,null),null,null))
+Input Line: 	p72, 272, 409
+Tokens: 	INSERT INTO hydrant values('p72',SDO_Geometry (2001,null,SDO_POINT_TYPE( 272, 409,null),null,null))
+Input Line: 	p73, 204, 367
+Tokens: 	INSERT INTO hydrant values('p73',SDO_Geometry (2001,null,SDO_POINT_TYPE( 204, 367,null),null,null))
+Input Line: 	p74, 231, 371
+Tokens: 	INSERT INTO hydrant values('p74',SDO_Geometry (2001,null,SDO_POINT_TYPE( 231, 371,null),null,null))
+Input Line: 	p75, 381, 424
+Tokens: 	INSERT INTO hydrant values('p75',SDO_Geometry (2001,null,SDO_POINT_TYPE( 381, 424,null),null,null))
+Input Line: 	p76, 466, 471
+Tokens: 	INSERT INTO hydrant values('p76',SDO_Geometry (2001,null,SDO_POINT_TYPE( 466, 471,null),null,null))
+Input Line: 	p77, 338, 96
+Tokens: 	INSERT INTO hydrant values('p77',SDO_Geometry (2001,null,SDO_POINT_TYPE( 338, 96,null),null,null))
+Input Line: 	p78, 349, 78
+Tokens: 	INSERT INTO hydrant values('p78',SDO_Geometry (2001,null,SDO_POINT_TYPE( 349, 78,null),null,null))
+Input Line: 	p79, 409, 132
+Tokens: 	INSERT INTO hydrant values('p79',SDO_Geometry (2001,null,SDO_POINT_TYPE( 409, 132,null),null,null))
+
+Input Line: 	b0, PSA, 12, 79, 68, 184, 125, 179, 133, 189, 138, 139, 229, 131, 225, 127, 233, 21, 175, 26, 168, 18, 163, 67, 73, 74, 76
+Tokens: 	INSERT INTO building values('b0',' PSA',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 79, 68, 184, 125, 179, 133, 189, 138, 139, 229, 131, 225, 127, 233, 21, 175, 26, 168, 18, 163, 67)))
+Input Line: 	b1, OHE, 4, 226, 150, 254, 164, 240, 191, 212, 176
+Tokens: 	INSERT INTO building values('b1',' OHE',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 226, 150, 254, 164, 240)))
+Input Line: 	b2, BHE, 12, 337, 209, 389, 236, 385, 242, 390, 244, 385, 253, 381, 251, 378, 255, 327, 228, 330, 223, 324, 219, 328, 212, 334, 214
+Tokens: 	INSERT INTO building values('b2',' BHE',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 337, 209, 389, 236, 385, 242, 390, 244, 385, 253, 381, 251, 378, 255, 327, 228, 330, 223, 324, 219, 328)))
+Input Line: 	b3, VHE, 12, 405, 239, 440, 257, 426, 283, 421, 280, 394, 329, 401, 332, 386, 357, 351, 339, 365, 313, 369, 315, 396, 266, 391, 263
+Tokens: 	INSERT INTO building values('b3',' VHE',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 405, 239, 440, 257, 426, 283, 421, 280, 394, 329, 401, 332, 386, 357, 351, 339, 365, 313, 369, 315, 396)))
+Input Line: 	b4, HED & PCE, 14, 267, 265, 291, 278, 284, 290, 290, 294, 296, 283, 354, 314, 348, 327, 340, 322, 335, 330, 290, 305, 291, 301, 281, 295, 277, 301, 258, 289
+Tokens: 	INSERT INTO building values('b4',' HED & PCE',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 267, 265, 291, 278, 284, 290, 290, 294, 296, 283, 354, 314, 348, 327, 340, 322, 335, 330, 290, 305, 291, 301, 281, 295, 277)))
+Input Line: 	b5, small building 1, 4, 207, 193, 219, 199, 191, 251, 179, 245
+Tokens: 	INSERT INTO building values('b5',' small building 1',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 207, 193, 219, 199, 191)))
+Input Line: 	b6, small building 2, 4, 264, 174, 273, 179, 247, 228, 237, 222
+Tokens: 	INSERT INTO building values('b6',' small building 2',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 264, 174, 273, 179, 247)))
+Input Line: 	b7, small building 3, 4, 216, 228, 241, 241, 225, 271, 199, 257
+Tokens: 	INSERT INTO building values('b7',' small building 3',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 216, 228, 241, 241, 225)))
+Input Line: 	b8, NBA, 4, 182, 284, 207, 298, 202, 306, 177, 293
+Tokens: 	INSERT INTO building values('b8',' NBA',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 182, 284, 207, 298, 202)))
+Input Line: 	b9, ABT, 4, 157, 282, 169, 288, 158, 308, 147, 301
+Tokens: 	INSERT INTO building values('b9',' ABT',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 157, 282, 169, 288, 158)))
+Input Line: 	b10, SBA, 4, 172, 304, 197, 317, 191, 327, 166, 313
+Tokens: 	INSERT INTO building values('b10',' SBA',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 172, 304, 197, 317, 191)))
+Input Line: 	b11, GER, 4, 65, 226, 122, 258, 77, 341, 20, 310
+Tokens: 	INSERT INTO building values('b11',' GER',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 65, 226, 122, 258, 77)))
+Input Line: 	b12, EEB, 4, 127, 346, 184, 375, 171, 400, 115, 370
+Tokens: 	INSERT INTO building values('b12',' EEB',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 127, 346, 184, 375, 171)))
+Input Line: 	b13, SAL, 8, 216, 370, 266, 397, 255, 417, 261, 420, 247, 445, 187, 412, 201, 388, 206, 391
+Tokens: 	INSERT INTO building values('b13',' SAL',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 216, 370, 266, 397, 255, 417, 261, 420, 247, 445, 187, 412, 201)))
+Input Line: 	b14, SSC, 12, 232, 324, 241, 329, 238, 333, 245, 338, 247, 334, 293, 358, 277, 386, 233, 360, 234, 356, 228, 352, 224, 359, 217, 354
+Tokens: 	INSERT INTO building values('b14',' SSC',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 232, 324, 241, 329, 238, 333, 245, 338, 247, 334, 293, 358, 277, 386, 233, 360, 234, 356, 228, 352, 224)))
+Input Line: 	b15, SSL, 12, 309, 371, 325, 379, 333, 365, 349, 374, 342, 388, 357, 396, 346, 416, 331, 409, 324, 422, 307, 413, 313, 399, 298, 391
+Tokens: 	INSERT INTO building values('b15',' SSL',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 309, 371, 325, 379, 333, 365, 349, 374, 342, 388, 357, 396, 346, 416, 331, 409, 324, 422, 307, 413, 313)))
+Input Line: 	b16, PHE, 6, 300, 432, 338, 452, 322, 482, 296, 469, 302, 459, 289, 452
+Tokens: 	INSERT INTO building values('b16',' PHE',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 300, 432, 338, 452, 322, 482, 296, 469, 302)))
+Input Line: 	b17, LHI & SLH, 6, 446, 339, 478, 357, 460, 390, 491, 408, 488, 417, 424, 382
+Tokens: 	INSERT INTO building values('b17',' LHI & SLH',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 446, 339, 478, 357, 460, 390, 491, 408, 488)))
+Input Line: 	b18, HLAG, 4, 420, 426, 464, 449, 435, 503, 392, 480
+Tokens: 	INSERT INTO building values('b18',' HLAG',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 420, 426, 464, 449, 435)))
+Input Line: 	b19, RRB & LIS & OCW & CEM & SCI, 16, 474, 285, 529, 315, 533, 310, 695, 397, 644, 494, 601, 471, 644, 390, 627, 380, 623, 387, 633, 393, 609, 434, 586, 422, 610, 371, 524, 325, 508, 353, 454, 323
+Tokens: 	INSERT INTO building values('b19',' RRB & LIS & OCW & CEM & SCI',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 474, 285, 529, 315, 533, 310, 695, 397, 644, 494, 601, 471, 644, 390, 627, 380, 623, 387, 633, 393, 609, 434, 586, 422, 610, 371, 524, 325, 508)))
+Input Line: 	b20, SHS, 4, 565, 357, 596, 374, 582, 399, 551, 383
+Tokens: 	INSERT INTO building values('b20',' SHS',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 565, 357, 596, 374, 582)))
+Input Line: 	b21, ACP, 4, 564, 425, 585, 436, 573, 458, 552, 447
+Tokens: 	INSERT INTO building values('b21',' ACP',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 564, 425, 585, 436, 573)))
+Input Line: 	b22, HAR, 8, 498, 459, 574, 503, 537, 569, 465, 530, 458, 541, 439, 530, 445, 517, 462, 525
+Tokens: 	INSERT INTO building values('b22',' HAR',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 498, 459, 574, 503, 537, 569, 465, 530, 458, 541, 439, 530, 445)))
+Input Line: 	b23, MPH, 6, 586, 500, 629, 523, 596, 578, 569, 563, 559, 579, 549, 574
+Tokens: 	INSERT INTO building values('b23',' MPH',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 586, 500, 629, 523, 596, 578, 569, 563, 559)))
+Input Line: 	b24, ACC, 4, 748, 427, 791, 450, 768, 494, 725, 471
+Tokens: 	INSERT INTO building values('b24',' ACC',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 748, 427, 791, 450, 768)))
+Input Line: 	b25, BRI, 8, 722, 483, 735, 490, 729, 505, 757, 518, 746, 538, 719, 525, 710, 535, 698, 528
+Tokens: 	INSERT INTO building values('b25',' BRI',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 722, 483, 735, 490, 729, 505, 757, 518, 746, 538, 719, 525, 710)))
+Input Line: 	b26, SGM, 16, 297, 13, 357, 45, 334, 87, 312, 75, 291, 114, 310, 125, 295, 151, 239, 121, 253, 95, 275, 106, 280, 98, 259, 86, 270, 62, 293, 73, 297, 66, 275, 54
+Tokens: 	INSERT INTO building values('b26',' SGM',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 297, 13, 357, 45, 334, 87, 312, 75, 291, 114, 310, 125, 295, 151, 239, 121, 253, 95, 275, 106, 280, 98, 259, 86, 270, 62, 293, 73, 297)))
+Input Line: 	b27, GFS, 4, 380, 66, 493, 126, 475, 157, 363, 97
+Tokens: 	INSERT INTO building values('b27',' GFS',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 380, 66, 493, 126, 475)))
+Input Line: 	b28, BKS, 4, 607, 199, 641, 217, 617, 257, 584, 239
+Tokens: 	INSERT INTO building values('b28',' BKS',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 607, 199, 641, 217, 617)))
+Input Line: 	b29, HSH, 4, 552, 231, 565, 238, 540, 284, 527, 278
+Tokens: 	INSERT INTO building values('b29',' HSH',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 552, 231, 565, 238, 540)))
+Input Line: 	b30, YWC, 8, 514, 215, 537, 224, 530, 237, 521, 232, 513, 248, 530, 258, 527, 264, 497, 247
+Tokens: 	INSERT INTO building values('b30',' YWC',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 514, 215, 537, 224, 530, 237, 521, 232, 513, 248, 530, 258, 527)))
+Input Line: 	b31, commons & STU, 12, 659, 228, 700, 249, 692, 263, 708, 272, 718, 255, 766, 280, 740, 329, 646, 278, 640, 290, 619, 278, 640, 236, 652, 241
+Tokens: 	INSERT INTO building values('b31',' commons & STU',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 659, 228, 700, 249, 692, 263, 708, 272, 718, 255, 766, 280, 740, 329, 646, 278, 640, 290, 619, 278, 640)))
+Input Line: 	b32, TSC, 4, 677, 320, 708, 337, 690, 368, 661, 351
+Tokens: 	INSERT INTO building values('b32',' TSC',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 677, 320, 708, 337, 690)))
+Input Line: 	b33, HNB, 16, 431, 163, 440, 160, 443, 171, 472, 186, 482, 183, 485, 195, 474, 198, 458, 227, 462, 236, 452, 239, 449, 230, 421, 214, 410, 216, 408, 207, 417, 205, 434, 175
+Tokens: 	INSERT INTO building values('b33',' HNB',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 431, 163, 440, 160, 443, 171, 472, 186, 482, 183, 485, 195, 474, 198, 458, 227, 462, 236, 452, 239, 449, 230, 421, 214, 410, 216, 408, 207, 417)))
+Input Line: 	b34, PKS, 12, 94, 402, 110, 412, 105, 420, 115, 426, 118, 422, 176, 454, 165, 472, 108, 441, 110, 435, 100, 430, 74, 480, 57, 470
+Tokens: 	INSERT INTO building values('b34',' PKS',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 94, 402, 110, 412, 105, 420, 115, 426, 118, 422, 176, 454, 165, 472, 108, 441, 110, 435, 100, 430, 74)))
+Input Line: 	b35, STO, 12, 574, 247, 586, 254, 577, 270, 589, 277, 599, 259, 610, 265, 587, 309, 575, 302, 581, 290, 570, 283, 562, 296, 552, 289
+Tokens: 	INSERT INTO building values('b35',' STO',SDO_Geometry (2003,null,null,SDO_ELEM_INFO_ARRAY(1,1003,1),SDO_ORDINATE_ARRAY( 574, 247, 586, 254, 577, 270, 589, 277, 599, 259, 610, 265, 587, 309, 575, 302, 581, 290, 570, 283, 562)))
+BUILD SUCCESSFUL (total time: 1 second)
